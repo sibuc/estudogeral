@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form-value-pairs>
+            <value-pairs value-pairs-name="grantor" dc-term="degree">
+ 	      <pair>
+               <displayed-value>Universidade dos Açores - Angra do Heroísmo</displayed-value>
+               <stored-value>00110::Universidade dos Açores - Angra do Heroísmo</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade dos Açores - Horta</displayed-value>
+               <stored-value>00120::Universidade dos Açores - Horta</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade dos Açores - Ponta Delgada</displayed-value>
+               <stored-value>00130::Universidade dos Açores - Ponta Delgada</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade do Algarve - Faculdade de Ciências Humanas e Sociais</displayed-value>
+               <stored-value>00201::Universidade do Algarve - Faculdade de Ciências Humanas e Sociais</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade do Algarve - Faculdade de Ciências e Tecnologia</displayed-value>
+               <stored-value>00203::Universidade do Algarve - Faculdade de Ciências e Tecnologia</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade do Algarve - Faculdade de Economia</displayed-value>
+               <stored-value>00204::Universidade do Algarve - Faculdade de Economia</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Coimbra - Faculdade de Ciências e Tecnologia</displayed-value>
+               <stored-value>00501::Universidade de Coimbra - Faculdade de Ciências e Tecnologia</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Coimbra - Faculdade de Direito</displayed-value>
+               <stored-value>00502::Universidade de Coimbra - Faculdade de Direito</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Coimbra - Faculdade de Economia</displayed-value>
+               <stored-value>00503::Universidade de Coimbra - Faculdade de Economia</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Coimbra - Faculdade de Farmácia</displayed-value>
+               <stored-value>00504::Universidade de Coimbra - Faculdade de Farmácia</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Coimbra - Faculdade de Letras</displayed-value>
+               <stored-value>00505::Universidade de Coimbra - Faculdade de Letras</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Coimbra - Faculdade de Medicina</displayed-value>
+               <stored-value>00506::Universidade de Coimbra - Faculdade de Medicina</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Coimbra - Faculdade de Psicologia e de Ciências da Educação</displayed-value>
+               <stored-value>00507::Universidade de Coimbra - Faculdade de Psicologia e de Ciências da Educação</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Coimbra - Faculdade de Ciências do Desporto e Educação Física</displayed-value>
+               <stored-value>00508::Universidade de Coimbra - Faculdade de Ciências do Desporto e Educação Física</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Coimbra - Colégio das Artes</displayed-value>
+               <stored-value>00509::Universidade de Coimbra - Colégio das Artes</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Coimbra - Instituto de Investigação Interdisciplinar</displayed-value>
+               <stored-value>00510::Universidade de Coimbra - Instituto de Investigação Interdisciplinar</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Évora - Instituto de Investigação e Formação Avançada</displayed-value>
+               <stored-value>00601::Universidade de Évora - Instituto de Investigação e Formação Avançada</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Évora - Escola de Ciências e Tecnologia</displayed-value>
+               <stored-value>00602::Universidade de Évora - Escola de Ciências e Tecnologia</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Évora - Escola de Artes</displayed-value>
+               <stored-value>00603::Universidade de Évora - Escola de Artes</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Évora - Escola de Ciências Sociais</displayed-value>
+               <stored-value>00604::Universidade de Évora - Escola de Ciências Sociais</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade Nova de Lisboa - Faculdade de Ciências Médicas</displayed-value>
+               <stored-value>00901::Universidade Nova de Lisboa - Faculdade de Ciências Médicas</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade Nova de Lisboa - Faculdade de Ciências Sociais e Humanas</displayed-value>
+               <stored-value>00902::Universidade Nova de Lisboa - Faculdade de Ciências Sociais e Humanas</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade Nova de Lisboa - Faculdade de Ciências e Tecnologia</displayed-value>
+               <stored-value>00903::Universidade Nova de Lisboa - Faculdade de Ciências e Tecnologia</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade Nova de Lisboa - Faculdade de Economia  </displayed-value>
+               <stored-value>00904::Universidade Nova de Lisboa - Faculdade de Economia</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade Nova de Lisboa - Instituto de Higiene e Medicina Tropical</displayed-value>
+               <stored-value>00905::Universidade Nova de Lisboa - Instituto de Higiene e Medicina Tropical</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade Nova de Lisboa - Instituto Superior de Estatística e Gestão de Informação</displayed-value>
+               <stored-value>00906::Universidade Nova de Lisboa - Instituto Superior de Estatística e Gestão de Informação</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade Nova de Lisboa - Escola Nacional de Saúde Pública</displayed-value>
+               <stored-value>00908::Universidade Nova de Lisboa - Escola Nacional de Saúde Pública</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade Nova de Lisboa - Instituto de Tecnologia Química e Biológica</displayed-value>
+               <stored-value>00910::Universidade Nova de Lisboa - Instituto de Tecnologia Química e Biológica</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade Nova de Lisboa - Faculdade de Direito</displayed-value>
+               <stored-value>00911::Universidade Nova de Lisboa - Faculdade de Direito</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade do Porto - Faculdade de Ciências da Nutrição e da Alimentação</displayed-value>
+               <stored-value>01101::Universidade do Porto - Faculdade de Ciências da Nutrição e da Alimentação</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade do Porto - Faculdade de Arquitectura</displayed-value>
+               <stored-value>01102::Universidade do Porto - Faculdade de Arquitectura</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade do Porto - Faculdade de Ciências</displayed-value>
+               <stored-value>01103::Universidade do Porto - Faculdade de Ciências</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade do Porto - Faculdade de Economia</displayed-value>
+               <stored-value>01104::Universidade do Porto - Faculdade de Economia</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade do Porto - Faculdade de Engenharia</displayed-value>
+               <stored-value>01105::Universidade do Porto - Faculdade de Engenharia</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade do Porto - Faculdade de Farmácia</displayed-value>
+               <stored-value>01106::Universidade do Porto - Faculdade de Farmácia</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade do Porto - Faculdade de Letras</displayed-value>
+               <stored-value>01107::Universidade do Porto - Faculdade de Letras</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade do Porto - Faculdade de Medicina</displayed-value>
+               <stored-value>01108::Universidade do Porto - Faculdade de Medicina</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade do Porto - Faculdade de Psicologia e de Ciências da Educação</displayed-value>
+               <stored-value>01109::Universidade do Porto - Faculdade de Psicologia e de Ciências da Educação</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade do Porto - Instituto de Ciências Biomédicas de Abel Salazar</displayed-value>
+               <stored-value>01110::Universidade do Porto - Instituto de Ciências Biomédicas de Abel Salazar</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade do Porto - Faculdade de Desporto</displayed-value>
+               <stored-value>01111::Universidade do Porto - Faculdade de Desporto</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade do Porto - Faculdade de Medicina Dentária</displayed-value>
+               <stored-value>01113::Universidade do Porto - Faculdade de Medicina Dentária</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade do Porto - Faculdade de Direito</displayed-value>
+               <stored-value>01114::Universidade do Porto - Faculdade de Direito</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências Agrárias e Veterinárias</displayed-value>
+               <stored-value>01201::Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências Agrárias e Veterinárias</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências Humanas e Sociais</displayed-value>
+               <stored-value>01202::Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências Humanas e Sociais</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências e Tecnologia</displayed-value>
+               <stored-value>01203::Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências e Tecnologia</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências da Vida e do Ambiente</displayed-value>
+               <stored-value>01204::Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências da Vida e do Ambiente</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências Humanas e Sociais (Chaves)</displayed-value>
+               <stored-value>01205::Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências Humanas e Sociais (Chaves)</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Lisboa - Faculdade de Arquitectura</displayed-value>
+               <stored-value>01501::Universidade de Lisboa - Faculdade de Arquitectura</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Lisboa - Faculdade de Belas-Artes</displayed-value>
+               <stored-value>01502::Universidade de Lisboa - Faculdade de Belas-Artes</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Lisboa - Faculdade de Ciências</displayed-value>
+               <stored-value>01503::Universidade de Lisboa - Faculdade de Ciências</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Lisboa - Faculdade de Direito</displayed-value>
+               <stored-value>01504::Universidade de Lisboa - Faculdade de Direito</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Lisboa - Faculdade de Farmácia</displayed-value>
+               <stored-value>01505::Universidade de Lisboa - Faculdade de Farmácia</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Lisboa - Faculdade de Letras</displayed-value>
+               <stored-value>01506::Universidade de Lisboa - Faculdade de Letras</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Lisboa - Faculdade de Medicina</displayed-value>
+               <stored-value>01507::Universidade de Lisboa - Faculdade de Medicina</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Lisboa - Faculdade de Medicina Dentária</displayed-value>
+               <stored-value>01508::Universidade de Lisboa - Faculdade de Medicina Dentária</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Lisboa - Faculdade de Medicina Veterinária</displayed-value>
+               <stored-value>01509::Universidade de Lisboa - Faculdade de Medicina Veterinária</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Lisboa - Faculdade de Motricidade Humana</displayed-value>
+               <stored-value>01510::Universidade de Lisboa - Faculdade de Motricidade Humana</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Lisboa - Faculdade de Psicologia</displayed-value>
+               <stored-value>01511::Universidade de Lisboa - Faculdade de Psicologia</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Lisboa - Instituto de Ciências Sociais</displayed-value>
+               <stored-value>01512::Universidade de Lisboa - Instituto de Ciências Sociais</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Lisboa - Instituto de Educação</displayed-value>
+               <stored-value>01513::Universidade de Lisboa - Instituto de Educação</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Lisboa - Instituto de Geografia e Ordenamento do Território</displayed-value>
+               <stored-value>01514::Universidade de Lisboa - Instituto de Geografia e Ordenamento do Território</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Lisboa - Instituto Superior de Agronomia</displayed-value>
+               <stored-value>01515::Universidade de Lisboa - Instituto Superior de Agronomia</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Lisboa - Instituto Superior de Ciências Sociais e Políticas</displayed-value>
+               <stored-value>01516::Universidade de Lisboa - Instituto Superior de Ciências Sociais e Políticas</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Lisboa - Instituto Superior de Economia e Gestão</displayed-value>
+               <stored-value>01517::Universidade de Lisboa - Instituto Superior de Economia e Gestão</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Lisboa - Instituto Superior Técnico</displayed-value>
+               <stored-value>01518::Universidade de Lisboa - Instituto Superior Técnico</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Lisboa - Instituto Superior Técnico (Tagus Park)</displayed-value>
+               <stored-value>01519::Universidade de Lisboa - Instituto Superior Técnico (Tagus Park)</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Aveiro - Instituto Superior de Contabilidade e Administração de Aveiro</displayed-value>
+               <stored-value>03011::Universidade de Aveiro - Instituto Superior de Contabilidade e Administração de Aveiro</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Aveiro - Escola Superior de Tecnologia e Gestão de Águeda</displayed-value>
+               <stored-value>03012::Universidade de Aveiro - Escola Superior de Tecnologia e Gestão de Águeda</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Aveiro - Escola Superior de Saúde de Aveiro</displayed-value>
+               <stored-value>03013::Universidade de Aveiro - Escola Superior de Saúde de Aveiro</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Aveiro - Escola Superior de Design, Gestão e Tecnologias da Produção de Aveiro-Norte</displayed-value>
+               <stored-value>03014::Universidade de Aveiro - Escola Superior de Design, Gestão e Tecnologias da Produção de Aveiro-Norte</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico do Cávado e do Ave - Escola Superior de Gestão</displayed-value>
+               <stored-value>03031::Instituto Politécnico do Cávado e do Ave - Escola Superior de Gestão</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico do Cávado e do Ave - Escola Superior de Tecnologia</displayed-value>
+               <stored-value>03032::Instituto Politécnico do Cávado e do Ave - Escola Superior de Tecnologia</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Bragança - Escola Superior Agrária de Bragança</displayed-value>
+               <stored-value>03041::Instituto Politécnico de Bragança - Escola Superior Agrária de Bragança</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Bragança - Escola Superior de Educação de Bragança</displayed-value>
+               <stored-value>03042::Instituto Politécnico de Bragança - Escola Superior de Educação de Bragança</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Bragança - Escola Superior de Tecnologia e de Gestão de Bragança</displayed-value>
+               <stored-value>03043::Instituto Politécnico de Bragança - Escola Superior de Tecnologia e de Gestão de Bragança</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Bragança - Escola Superior de Comunicação, Administração e Turismo de Mirandela</displayed-value>
+               <stored-value>03045::Instituto Politécnico de Bragança - Escola Superior de Comunicação, Administração e Turismo de Mirandela</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Castelo Branco - Escola Superior Agrária de Castelo Branco</displayed-value>
+               <stored-value>03051::Instituto Politécnico de Castelo Branco - Escola Superior Agrária de Castelo Branco</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Castelo Branco - Escola Superior de Educação de Castelo Branco</displayed-value>
+               <stored-value>03052::Instituto Politécnico de Castelo Branco - Escola Superior de Educação de Castelo Branco</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Castelo Branco - Escola Superior de Gestão de Idanha-a-Nova</displayed-value>
+               <stored-value>03054::Instituto Politécnico de Castelo Branco - Escola Superior de Gestão de Idanha-a-Nova</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Castelo Branco - Escola Superior de Artes Aplicadas de Castelo Branco</displayed-value>
+               <stored-value>03055::Instituto Politécnico de Castelo Branco - Escola Superior de Artes Aplicadas de Castelo Branco</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade do Algarve - Escola Superior de Educação e Comunicação</displayed-value>
+               <stored-value>03081::Universidade do Algarve - Escola Superior de Educação e Comunicação</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade do Algarve - Escola Superior de Gestão, Hotelaria e Turismo</displayed-value>
+               <stored-value>03082::Universidade do Algarve - Escola Superior de Gestão, Hotelaria e Turismo</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade do Algarve - Instituto Superior de Engenharia</displayed-value>
+               <stored-value>03083::Universidade do Algarve - Instituto Superior de Engenharia</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade do Algarve - Escola Superior de Gestão, Hotelaria e Turismo (Portimão)</displayed-value>
+               <stored-value>03087::Universidade do Algarve - Escola Superior de Gestão, Hotelaria e Turismo (Portimão)</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico da Guarda - Escola Superior de Educação, Comunicação e Desporto</displayed-value>
+               <stored-value>03091::Instituto Politécnico da Guarda - Escola Superior de Educação, Comunicação e Desporto</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico da Guarda - Escola Superior de Tecnologia e Gestão</displayed-value>
+               <stored-value>03092::Instituto Politécnico da Guarda - Escola Superior de Tecnologia e Gestão</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Leiria - Escola Superior de Educação e Ciências Sociais</displayed-value>
+               <stored-value>03101::Instituto Politécnico de Leiria - Escola Superior de Educação e Ciências Sociais</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Leiria - Escola Superior de Tecnologia e Gestão</displayed-value>
+               <stored-value>03102::Instituto Politécnico de Leiria - Escola Superior de Tecnologia e Gestão</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Leiria - Escola Superior de Artes e Design das Caldas da Rainha</displayed-value>
+               <stored-value>03103::Instituto Politécnico de Leiria - Escola Superior de Artes e Design das Caldas da Rainha</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Leiria - Escola Superior de Turismo e Tecnologia do Mar de Peniche</displayed-value>
+               <stored-value>03105::Instituto Politécnico de Leiria - Escola Superior de Turismo e Tecnologia do Mar de Peniche</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Lisboa</displayed-value>
+               <stored-value>03110::Instituto Politécnico de Lisboa</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Lisboa - Escola Superior de Dança</displayed-value>
+               <stored-value>03111::Instituto Politécnico de Lisboa - Escola Superior de Dança</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Lisboa - Escola Superior de Educação de Lisboa</displayed-value>
+               <stored-value>03112::Instituto Politécnico de Lisboa - Escola Superior de Educação de Lisboa</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Lisboa - Escola Superior de Música</displayed-value>
+               <stored-value>03114::Instituto Politécnico de Lisboa - Escola Superior de Música</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Lisboa - Escola Superior de Teatro e Cinema</displayed-value>
+               <stored-value>03116::Instituto Politécnico de Lisboa - Escola Superior de Teatro e Cinema</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Lisboa - Instituto Superior de Contabilidade e Administração de Lisboa</displayed-value>
+               <stored-value>03117::Instituto Politécnico de Lisboa - Instituto Superior de Contabilidade e Administração de Lisboa</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Lisboa - Instituto Superior de Engenharia de Lisboa</displayed-value>
+               <stored-value>03118::Instituto Politécnico de Lisboa - Instituto Superior de Engenharia de Lisboa</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Portalegre - Escola Superior de Educação</displayed-value>
+               <stored-value>03121::Instituto Politécnico de Portalegre - Escola Superior de Educação</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Portalegre - Escola Superior de Tecnologia e Gestão</displayed-value>
+               <stored-value>03122::Instituto Politécnico de Portalegre - Escola Superior de Tecnologia e Gestão</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Portalegre - Escola Superior Agrária</displayed-value>
+               <stored-value>03123::Instituto Politécnico de Portalegre - Escola Superior Agrária</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Santarém - Escola Superior Agrária de Santarém</displayed-value>
+               <stored-value>03141::Instituto Politécnico de Santarém - Escola Superior Agrária de Santarém</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Santarém - Escola Superior de Educação de Santarém</displayed-value>
+               <stored-value>03142::Instituto Politécnico de Santarém - Escola Superior de Educação de Santarém</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Santarém - Escola Superior de Gestão e Tecnologia de Santarém</displayed-value>
+               <stored-value>03143::Instituto Politécnico de Santarém - Escola Superior de Gestão e Tecnologia de Santarém</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Santarém - Escola Superior de Desporto de Rio Maior</displayed-value>
+               <stored-value>03145::Instituto Politécnico de Santarém - Escola Superior de Desporto de Rio Maior</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Setúbal - Escola Superior de Educação</displayed-value>
+               <stored-value>03151::Instituto Politécnico de Setúbal - Escola Superior de Educação</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Setúbal - Escola Superior de Tecnologia de Setúbal</displayed-value>
+               <stored-value>03152::Instituto Politécnico de Setúbal - Escola Superior de Tecnologia de Setúbal</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Setúbal - Escola Superior de Ciências Empresariais</displayed-value>
+               <stored-value>03153::Instituto Politécnico de Setúbal - Escola Superior de Ciências Empresariais</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Setúbal - Escola Superior de Saúde</displayed-value>
+               <stored-value>03155::Instituto Politécnico de Setúbal - Escola Superior de Saúde</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Viana do Castelo - Escola Superior Agrária</displayed-value>
+               <stored-value>03161::Instituto Politécnico de Viana do Castelo - Escola Superior Agrária</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Viana do Castelo - Escola Superior de Educação</displayed-value>
+               <stored-value>03162::Instituto Politécnico de Viana do Castelo - Escola Superior de Educação</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Viana do Castelo - Escola Superior de Tecnologia e Gestão</displayed-value>
+               <stored-value>03163::Instituto Politécnico de Viana do Castelo - Escola Superior de Tecnologia e Gestão</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Viana do Castelo - Escola Superior de Ciências Empresariais</displayed-value>
+               <stored-value>03164::Instituto Politécnico de Viana do Castelo - Escola Superior de Ciências Empresariais</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Viana do Castelo - Escola Superior de Desporto e Lazer de Melgaço</displayed-value>
+               <stored-value>03165::Instituto Politécnico de Viana do Castelo - Escola Superior de Desporto e Lazer de Melgaço</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Viseu - Escola Superior de Educação de Viseu</displayed-value>
+               <stored-value>03181::Instituto Politécnico de Viseu - Escola Superior de Educação de Viseu</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Viseu - Escola Superior de Tecnologia e Gestão de Viseu</displayed-value>
+               <stored-value>03182::Instituto Politécnico de Viseu - Escola Superior de Tecnologia e Gestão de Viseu</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Viseu - Escola Superior Agrária de Viseu</displayed-value>
+               <stored-value>03185::Instituto Politécnico de Viseu - Escola Superior Agrária de Viseu</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Viseu - Escola Superior de Tecnologia e Gestão de Lamego</displayed-value>
+               <stored-value>03186::Instituto Politécnico de Viseu - Escola Superior de Tecnologia e Gestão de Lamego</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Tomar - Escola Superior de Gestão de Tomar</displayed-value>
+               <stored-value>03241::Instituto Politécnico de Tomar - Escola Superior de Gestão de Tomar</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Tomar - Escola Superior de Tecnologia de Tomar</displayed-value>
+               <stored-value>03242::Instituto Politécnico de Tomar - Escola Superior de Tecnologia de Tomar</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Tomar - Escola Superior de Tecnologia de Abrantes</displayed-value>
+               <stored-value>03243::Instituto Politécnico de Tomar - Escola Superior de Tecnologia de Abrantes</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade do Porto - Faculdade de Belas-Artes</displayed-value>
+               <stored-value>05402::Universidade do Porto - Faculdade de Belas-Artes</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Bragança - Escola Superior de Saúde de Bragança</displayed-value>
+               <stored-value>07015::Instituto Politécnico de Bragança - Escola Superior de Saúde de Bragança</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Castelo Branco - Escola Superior de Saúde Dr. Lopes Dias</displayed-value>
+               <stored-value>07020::Instituto Politécnico de Castelo Branco - Escola Superior de Saúde Dr. Lopes Dias</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade do Algarve - Escola Superior de Saúde</displayed-value>
+               <stored-value>07035::Universidade do Algarve - Escola Superior de Saúde</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico da Guarda - Escola Superior de Saúde da Guarda</displayed-value>
+               <stored-value>07040::Instituto Politécnico da Guarda - Escola Superior de Saúde da Guarda</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Leiria - Escola Superior de Saúde de Leiria</displayed-value>
+               <stored-value>07045::Instituto Politécnico de Leiria - Escola Superior de Saúde de Leiria</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Portalegre - Escola Superior de Saúde</displayed-value>
+               <stored-value>07055::Instituto Politécnico de Portalegre - Escola Superior de Saúde</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Santarém - Escola Superior de Saúde de Santarém</displayed-value>
+               <stored-value>07065::Instituto Politécnico de Santarém - Escola Superior de Saúde de Santarém</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Viana do Castelo - Escola Superior de Saúde</displayed-value>
+               <stored-value>07075::Instituto Politécnico de Viana do Castelo - Escola Superior de Saúde</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Trás-os-Montes e Alto Douro - Escola Superior de Enfermagem de Vila Real</displayed-value>
+               <stored-value>07080::Universidade de Trás-os-Montes e Alto Douro - Escola Superior de Enfermagem de Vila Real</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Viseu - Escola Superior de Saúde de Viseu</displayed-value>
+               <stored-value>07085::Instituto Politécnico de Viseu - Escola Superior de Saúde de Viseu</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Lisboa - Escola Superior de Tecnologia da Saúde de Lisboa</displayed-value>
+               <stored-value>07220::Instituto Politécnico de Lisboa - Escola Superior de Tecnologia da Saúde de Lisboa</stored-value>
+             </pair>
+           </value-pairs>
+</form-value-pairs>

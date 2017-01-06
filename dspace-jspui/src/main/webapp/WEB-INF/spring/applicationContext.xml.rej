@@ -1,0 +1,24 @@
+--- dspace-jspui/src/main/webapp/WEB-INF/spring/applicationContext.xml	(revision 7897)
++++ dspace-jspui/src/main/webapp/WEB-INF/spring/applicationContext.xml	(working copy)
+@@ -29,12 +29,18 @@
+     </bean>
+        
+     <!-- Inject the SolrLoggerUsageEventListener into the EventService  -->
+-    <bean class="org.dspace.statistics.SolrLoggerUsageEventListener">
++    <!--<bean class="org.dspace.statistics.SolrLoggerUsageEventListener">
+         <property name="eventService" >
+             <ref bean="dspace.eventService"/>
+         </property>
+-    </bean>
+-          
++    </bean>-->
++
++	<!-- Inject the UMinho Stats Event Listener into the EventService -->
++	<bean class="org.dspace.app.stats.UsageEventJDBCEventListener">
++		<property name="eventService">
++			<ref bean="dspace.eventService" />
++		</property>
++	</bean>     
+              
+     <!-- 
+     Uncomment to enable TabFileUsageEventListener 

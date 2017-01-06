@@ -1,0 +1,39 @@
+--- dspace-api/src/main/java/org/dspace/app/requestitem/RequestItemHelpdeskStrategy.java	2015-11-04 11:18:43.566981379 +0000
++++ dspace-api/src/main/java/org/dspace/app/requestitem/RequestItemHelpdeskStrategy.java	2015-11-23 14:45:05.902613906 +0000
+@@ -37,9 +37,10 @@
+     public RequestItemAuthor getRequestItemAuthor(Context context, Item item) throws SQLException {
+         boolean helpdeskOverridesSubmitter = ConfigurationManager.getBooleanProperty("request.item.helpdesk.override", false);
+         String helpDeskEmail = ConfigurationManager.getProperty("mail.helpdesk");
+-
++        String helpDeskEmailSubject = ConfigurationManager.getProperty("mail.helpdesk.subject");
++        
+         if (helpdeskOverridesSubmitter && StringUtils.isNotBlank(helpDeskEmail)) {
+-            return getHelpDeskPerson(context, helpDeskEmail);
++            return getHelpDeskPerson(context, helpDeskEmail, helpDeskEmailSubject);
+         } else {
+             //Fallback to default logic (author of Item) if helpdesk isn't fully enabled or setup
+             return super.getRequestItemAuthor(context, item);
+@@ -54,7 +55,7 @@
+      * @param helpDeskEmail
+      * @return
+      */
+-    public RequestItemAuthor getHelpDeskPerson(Context context, String helpDeskEmail) throws SQLException{
++    public RequestItemAuthor getHelpDeskPerson(Context context, String helpDeskEmail , String helpDeskEmailSubject) throws SQLException{
+         EPerson helpdeskEPerson = null;
+ 
+         try {
+@@ -66,12 +67,12 @@
+         }
+ 
+         if(helpdeskEPerson != null) {
+-            return new RequestItemAuthor(helpdeskEPerson);
++            return new RequestItemAuthor(helpdeskEPerson, helpDeskEmailSubject);
+         } else {
+             String helpdeskName = I18nUtil.getMessage(
+                 "org.dspace.app.requestitem.RequestItemHelpdeskStrategy.helpdeskname",
+                 context);
+-            return new RequestItemAuthor(helpdeskName, helpDeskEmail);
++            return new RequestItemAuthor(helpdeskName, helpDeskEmail, helpDeskEmailSubject);
+         }
+     }
+ }

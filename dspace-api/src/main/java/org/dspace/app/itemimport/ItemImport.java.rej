@@ -1,0 +1,10 @@
+--- dspace-api/src/main/java/org/dspace/app/itemimport/ItemImport.java	(revision 7897)
++++ dspace-api/src/main/java/org/dspace/app/itemimport/ItemImport.java	(working copy)
+@@ -16,7 +16,6 @@
+ import gr.ekt.bteio.loaders.OAIPMHDataLoader;
+ 
+ import java.io.*;
+-import java.sql.SQLException;
+ import java.text.SimpleDateFormat;
+ import java.util.*;
+ import java.util.zip.ZipFile;

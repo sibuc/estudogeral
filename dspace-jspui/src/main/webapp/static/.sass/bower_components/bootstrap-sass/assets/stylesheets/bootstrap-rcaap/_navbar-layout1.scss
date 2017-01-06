@@ -1,0 +1,71 @@
+//
+// Navbars
+// --------------------------------------------------
+
+
+// Wrapper and base class
+//
+// Provide a static navbar from which we expand to create full-width, fixed, and
+// other navbar variations.
+
+.navbar {
+  position: relative;
+  min-height: $navbar-height; // Ensure a navbar always shows (e.g., without a .navbar-brand in collapsed mode)
+  //margin-bottom: $navbar-margin-bottom;
+  border: 1px solid transparent;
+
+  // Prevent floats from breaking the navbar
+  @include clearfix;
+
+  @media (min-width: $grid-float-breakpoint) {
+    border-radius: $navbar-border-radius;
+
+    &.navbar-fixed-top {
+        border-radius: 0;
+    }
+
+  }
+
+}
+
+
+
+// Navbar nav links
+//
+// Builds on top of the `.nav` components with its own modifier class to make
+// the nav the full height of the horizontal nav (above 768px).
+
+.navbar-nav {
+
+  // Uncollapse the nav
+  @media (min-width: $grid-float-breakpoint) {
+    float: left;
+    margin: 0;
+
+    > li {
+      float: left;
+      > a {
+        //padding-top:    $navbar-padding-vertical;
+        //padding-bottom: $navbar-padding-vertical;
+      }
+    }
+  }
+}
+
+
+// Navbar form
+//
+// Extension of the `.form-inline` with some extra flavor for optimum display in
+// our navbars.
+
+.navbar-form {
+
+  // Vertically center in expanded, horizontal navbar
+  //@include navbar-vertical-align($input-height-base);
+
+  @media (max-width: $screen-xs-min) {		
+    margin-top: $navbar-height-small ;		
+    margin-top: $navbar-height-small ;		
+  }
+
+}

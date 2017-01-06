@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<dspace-dc-types>
+
+  <dspace-header>
+    <title>Metadata Types Registry for DeGois</title>
+    <contributor.author>KEEP Solutions</contributor.author>
+    <date.created>2010-08-11</date.created>
+    <description>
+    	This file contains bibliographic metadata explicitly required by the
+    	DeGois interface for DSpace
+    </description>
+  </dspace-header>
+
+  <dc-schema>
+          <name>degois</name>
+          <namespace>http://www.degois.pt/rcaap</namespace>
+  </dc-schema>
+
+  <dc-type>
+  	<schema>degois</schema>
+  	<element>publication</element>
+  	<qualifier>firstPage</qualifier>
+       <scope_note></scope_note>
+  </dc-type>
+  <dc-type>
+  	<schema>degois</schema>
+  	<element>publication</element>
+  	<qualifier>lastPage</qualifier>
+       <scope_note></scope_note>
+  </dc-type>
+  <dc-type>
+  	<schema>degois</schema>
+  	<element>publication</element>
+  	<qualifier>issue</qualifier>
+       <scope_note></scope_note>
+  </dc-type>
+  <dc-type>
+  	<schema>degois</schema>
+  	<element>publication</element>
+  	<qualifier>location</qualifier>
+       <scope_note></scope_note>
+  </dc-type>
+  <dc-type>
+  	<schema>degois</schema>
+  	<element>publication</element>
+  	<qualifier>title</qualifier>
+       <scope_note></scope_note>
+  </dc-type>
+  <dc-type>
+  	<schema>degois</schema>
+        <element>publication</element>
+        <qualifier>volume</qualifier>
+       <scope_note></scope_note>
+  </dc-type>
+</dspace-dc-types>
+

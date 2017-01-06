@@ -1,0 +1,14 @@
+// Functions
+
+//retrieve inverted light or darker color based on a context with a amount of transparency
+@function set-contextual-color($color, $alpha) {
+  //if color lighten
+  @if (lightness( $color ) > 49) {
+    @return rgba(0, 0, 0, $alpha);
+  }
+  @else {
+    //if color darken
+    @return rgba(255, 255, 255, $alpha);
+  }
+}
+

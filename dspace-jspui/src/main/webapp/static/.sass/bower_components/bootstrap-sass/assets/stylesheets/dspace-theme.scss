@@ -1,0 +1,242 @@
+//colors
+$color-mountain_mist_approx: #999;
+$white: #fff;
+$color_hot_cinnamon_approx: rgb(217, 108, 39);
+$color_cape_cod_approx: rgb(66, 66, 66);
+$color_gray_approx: rgb(129, 129, 131);
+$gray: gray;
+$color_apple_approx: #47a447;
+$color_storm_dust_approx: #666;
+$color_mine_shaft_approx: #333;
+
+//urls
+$url_0: url(../../../image/authority/bug.png);
+$url_1: url(../../../image/confidence/0-unauthored.gif);
+$url_2: url(../../../image/confidence/2-errortriangle.gif);
+$url_3: url(../../../image/confidence/3-thumb1.gif);
+$url_4: url(../../../image/confidence/4-question.gif);
+$url_5: url(../../../image/confidence/5-pinion.gif);
+$url_6: url(../../../image/confidence/6-greencheck.gif);
+$url_7: url(../../../image/lock24.png);
+$url_8: url(../../../image/unlock24.png);
+
+//@extend-elements
+//original selectors
+//img.ds-authority-confidence, span.ds-authority-confidence
+%extend_1 {
+	width: 16px;
+	height: 16px;
+	margin: 5px;
+	background-repeat: no-repeat;
+	padding: 0 2px;
+	vertical-align: bottom;
+	color: transparent;
+}
+
+.brand {
+	margin: 30px 0;
+	h4 {
+		color: $color_mountain_mist_approx;
+	}
+}
+.search {
+	padding-top: 50px;
+}
+
+#content {
+	background: $white url(/image/pg_bck.png) no-repeat bottom right; //customizado DSPACE;
+	padding-top: 30px;
+	}
+
+#footer_feedback {
+	padding-top: 12px;
+}
+footer {
+	padding: 30px 0;
+}
+input[type="file"] {
+	display: block;
+	height: auto;
+}
+div {
+	&.tagcloud {
+		width: 100%;
+		text-align: center;
+		.tagcloud_1 {
+			color: $color_hot_cinnamon_approx;
+			font-weight: normal;
+			margin-right: 5px;
+		}
+		.tagcloud_2 {
+			color: $color_cape_cod_approx;
+			font-weight: normal;
+			margin-right: 5px;
+		}
+		.tagcloud_3 {
+			color: $color_gray_approx;
+			font-weight: normal;
+			margin-right: 5px;
+		}
+	}
+	&.batchimport-info {
+		color: $gray;
+		a {
+			color: $color_apple_approx;
+			font-weight: bold;
+		}
+	}
+	// &.panel-primary div.panel-heading a {
+	// 	color: $white;
+	// }
+}
+span {
+	&.ds-authority-confidence {
+		@extend %extend_1;
+		&.cf-unset {
+			background-image: $url_0;
+		}
+		&.cf-novalue {
+			background-image: $url_1;
+		}
+		&.cf-rejected {
+			background-image: $url_2;
+		}
+		&.cf-failed {
+			background-image: $url_2;
+		}
+		&.cf-notfound {
+			background-image: $url_3;
+		}
+		&.cf-ambiguous {
+			background-image: $url_4;
+		}
+		&.cf-uncertain {
+			background-image: $url_5;
+		}
+		&.cf-accepted {
+			background-image: $url_6;
+		}
+	}
+	&.batchimport-error-tab {
+		padding-left: 10px;
+	}
+	&.batchimport-error-caused {
+		font-weight: bold;
+	}
+}
+input {
+	&.ds-authority-value {
+		display: none;
+	}
+	&.ds-authority-lock {
+		vertical-align: bottom;
+		height: 24px;
+		width: 24px;
+		margin-right: 8px;
+		background-repeat: no-repeat;
+		background-color: transparent;
+		&.is-locked {
+			background-image: $url_7;
+		}
+		&.is-unlocked {
+			background-image: $url_8;
+		}
+	}
+}
+.browse_range {
+	text-align: center;
+}
+.prev-next-links {
+	text-align: center;
+}
+.copyright {
+	margin: 10px 0 40px 0;
+	color: $color_storm_dust_approx;
+	> li {
+		padding-right: 30px;
+	}
+}
+.carousel-inner {
+	h4 {
+		color: $color_mine_shaft_approx;
+		display: inline;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	
+	p {
+		margin-top: 10px;
+	}
+}
+ol.breadcrumb li {
+	color: $gray;
+	font-style: italic;
+	a {
+		color: $gray;
+		font-weight: bold;
+		font-style: normal;
+	}
+}
+body.undernavigation {
+	overflow-x: hidden;
+//	padding-top: 50px;
+}
+img.ds-authority-confidence {
+	@extend %extend_1;
+	&.cf-unset {
+		background-image: $url_0;
+	}
+	&.cf-novalue {
+		background-image: $url_1;
+	}
+	&.cf-rejected {
+		background-image: $url_2;
+	}
+	&.cf-failed {
+		background-image: $url_2;
+	}
+	&.cf-notfound {
+		background-image: $url_3;
+	}
+	&.cf-ambiguous {
+		background-image: $url_4;
+	}
+	&.cf-uncertain {
+		background-image: $url_5;
+	}
+	&.cf-accepted {
+		background-image: $url_6;
+	}
+}
+.label-required:after {
+	content: " *";
+}
+
+//  Adicionei algumas classes para promotores e financiadores
+
+.promotors, .sponsors {
+	& > a {
+		margin-right: 30px;
+	}
+}
+
+.sponsors {
+	padding-left: 64px;
+}
+
+.sponsors, .promotors {
+	p {
+		color: #999;
+		font-size: 0.75em;
+	}	
+}
+
+// Media query para modficiar espaçamento em viewports <768px
+
+ @media screen and (max-width: 768px) {
+	.sponsors {
+		margin-top: 20px;
+		padding-left: 20px;
+
+	}
+  }

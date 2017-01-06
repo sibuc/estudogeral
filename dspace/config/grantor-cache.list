@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form-value-pairs>
+            <value-pairs value-pairs-name="grantor" dc-term="degree">
+            <pair>
+               <displayed-value>Universidade dos Açores</displayed-value>
+               <stored-value>00100::Universidade dos Açores</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade do Algarve</displayed-value>
+               <stored-value>00200::Universidade do Algarve</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Aveiro</displayed-value>
+               <stored-value>00300::Universidade de Aveiro</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade da Beira Interior</displayed-value>
+               <stored-value>00400::Universidade da Beira Interior</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Coimbra</displayed-value>
+               <stored-value>00500::Universidade de Coimbra</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Évora</displayed-value>
+               <stored-value>00600::Universidade de Évora</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Lisboa</displayed-value>
+               <stored-value>01500::Universidade de Lisboa</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade Nova de Lisboa</displayed-value>
+               <stored-value>00900::Universidade Nova de Lisboa</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade do Minho</displayed-value>
+               <stored-value>01000::Universidade do Minho</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade do Porto</displayed-value>
+               <stored-value>01100::Universidade do Porto</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade de Trás-os-Montes e Alto Douro</displayed-value>
+               <stored-value>01200::Universidade de Trás-os-Montes e Alto Douro</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade da Madeira</displayed-value>
+               <stored-value>01300::Universidade da Madeira</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Universidade Aberta</displayed-value>
+               <stored-value>01400::Universidade Aberta</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>ISCTE - Instituto Universitário de Lisboa</displayed-value>
+               <stored-value>06800::ISCTE - Instituto Universitário de Lisboa</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Beja</displayed-value>
+               <stored-value>03020::Instituto Politécnico de Beja</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico do Cávado e do Ave</displayed-value>
+               <stored-value>03030::Instituto Politécnico do Cávado e do Ave</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Bragança</displayed-value>
+               <stored-value>03040::Instituto Politécnico de Bragança</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Castelo Branco</displayed-value>
+               <stored-value>03050::Instituto Politécnico de Castelo Branco</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Coimbra</displayed-value>
+               <stored-value>03060::Instituto Politécnico de Coimbra</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico da Guarda</displayed-value>
+               <stored-value>03090::Instituto Politécnico da Guarda</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Leiria</displayed-value>
+               <stored-value>03100::Instituto Politécnico de Leiria</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Lisboa</displayed-value>
+               <stored-value>03110::Instituto Politécnico de Lisboa</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Portalegre</displayed-value>
+               <stored-value>03120::Instituto Politécnico de Portalegre</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico do Porto</displayed-value>
+               <stored-value>03130::Instituto Politécnico do Porto</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Santarém</displayed-value>
+               <stored-value>03140::Instituto Politécnico de Santarém</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Setúbal</displayed-value>
+               <stored-value>03150::Instituto Politécnico de Setúbal</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Viana do Castelo</displayed-value>
+               <stored-value>03160::Instituto Politécnico de Viana do Castelo</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Viseu</displayed-value>
+               <stored-value>03180::Instituto Politécnico de Viseu</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Instituto Politécnico de Tomar</displayed-value>
+               <stored-value>03240::Instituto Politécnico de Tomar</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Escola Superior de Enfermagem de Coimbra</displayed-value>
+               <stored-value>07001::Escola Superior de Enfermagem de Coimbra</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Escola Superior de Enfermagem de Lisboa</displayed-value>
+               <stored-value>07002::Escola Superior de Enfermagem de Lisboa</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Escola Superior de Enfermagem do Porto</displayed-value>
+               <stored-value>07003::Escola Superior de Enfermagem do Porto</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Escola Superior Náutica Infante D. Henrique</displayed-value>
+               <stored-value>07105::Escola Superior Náutica Infante D. Henrique</stored-value>
+             </pair>
+             <pair>
+               <displayed-value>Escola Superior de Hotelaria e Turismo do Estoril</displayed-value>
+               <stored-value>07110::Escola Superior de Hotelaria e Turismo do Estoril</stored-value>
+             </pair>
+           </value-pairs>
+</form-value-pairs>

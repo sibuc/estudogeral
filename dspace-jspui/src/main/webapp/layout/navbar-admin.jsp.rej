@@ -1,0 +1,37 @@
+--- dspace-jspui/src/main/webapp/layout/navbar-admin.jsp	(revision 7897)
++++ dspace-jspui/src/main/webapp/layout/navbar-admin.jsp	(working copy)
+@@ -17,7 +17,9 @@
+ <%@ page import="java.util.List" %>
+ 
+ <%@ page import="javax.servlet.jsp.jstl.fmt.LocaleSupport" %>
+-
++<%-- STATS ADDON --%>
++<%@ page import="org.dspace.core.ConfigurationManager" %>
++<%-- END STATS ADDON --%>
+ <%@ page import="org.dspace.browse.BrowseInfo" %>
+ <%@ page import="org.dspace.sort.SortOption" %>
+ <%@ page import="org.dspace.app.webui.util.UIUtil" %>
+@@ -84,7 +86,22 @@
+                <li><a href="<%= request.getContextPath() %>/tools/authorize"><fmt:message key="jsp.layout.navbar-admin.authorization"/></a></li>
+             </ul>
+           </li>
+-          <li><a href="<%= request.getContextPath() %>/statistics"><fmt:message key="jsp.layout.navbar-admin.statistics"/></a></li>
++		  <!--STATS ADDON  -->
++		<%
++			if(ConfigurationManager.getBooleanProperty("stats.enable"))
++			{
++			%>
++				<li><a href="<%= request.getContextPath() %>/stats"><fmt:message key="jsp.layout.navbar-admin.statistics"/></a></li>
++			<%
++			}
++			else
++			{
++			%>
++				<li><a href="<%= request.getContextPath() %>/statistics"><fmt:message key="jsp.layout.navbar-admin.statistics"/></a></li>
++			<%
++			}
++		%>        
++		  <!--END STATS ADDON  -->
+ 		  <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><fmt:message key="jsp.layout.navbar-admin.settings"/> <b class="caret"></b></a>
+              <ul class="dropdown-menu">

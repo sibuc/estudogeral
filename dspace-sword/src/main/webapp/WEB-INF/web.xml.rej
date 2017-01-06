@@ -1,0 +1,19 @@
+--- dspace-sword/src/main/webapp/WEB-INF/web.xml	2015-05-22 16:13:35.000000000 +0100
++++ dspace-sword/src/main/webapp/WEB-INF/web.xml	2016-03-21 14:39:54.000000000 +0000
+@@ -49,10 +49,12 @@
+     </description>
+   </context-param>
+   
+-   <!-- 
+-   Listener to initialise DSpace configuration and clean up the application 
+-   -->
+-    <listener>
++   <!--
++       DSpace Kernel startup listener. This listener is in charge of initializing/starting the
++       DSpace Kernel. It MUST be listed BEFORE any other DSpace listeners, as DSpace services
++       will not function until the Kernel is initialized.
++   --> 
++   <listener>
+       <listener-class>
+          org.dspace.servicemanager.servlet.DSpaceKernelServletContextListener
+       </listener-class>

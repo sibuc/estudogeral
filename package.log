@@ -1,0 +1,1384 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.dspace:dspace-oai-stats-api:jar:1.6.2
+[WARNING] 'parent.relativePath' of POM org.dspace:dspace-oai-stats-api:[unknown-version] (/home/EstudoGeral/dspace5-src_trab/dspace-oai-stats/dspace-oai-stats-api/pom.xml) points at org.dspace:dspace-oai-stats instead of org.dspace:dspace-oai, please verify your project structure @ org.dspace:dspace-oai-stats-api:[unknown-version], /home/EstudoGeral/dspace5-src_trab/dspace-oai-stats/dspace-oai-stats-api/pom.xml, line 14, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.dspace:dspace-parent:1.6.2, /home/dspace/.m2/repository/org/dspace/dspace-parent/1.6.2/dspace-parent-1.6.2.pom, line 34, column 18
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.dspace:dspace-parent:1.6.2, /home/dspace/.m2/repository/org/dspace/dspace-parent/1.6.2/dspace-parent-1.6.2.pom, line 41, column 18
+[WARNING] 'distributionManagement.repository.id' must not contain any of these characters \/:"<>|?* but found / @ org.dspace:dspace-parent:1.6.2, /home/dspace/.m2/repository/org/dspace/dspace-parent/1.6.2/dspace-parent-1.6.2.pom, line 834, column 14
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.dspace:dspace-oai-stats-webapp:war:1.6.2
+[WARNING] 'parent.relativePath' of POM org.dspace:dspace-oai-stats-webapp:[unknown-version] (/home/EstudoGeral/dspace5-src_trab/dspace-oai-stats/dspace-oai-stats-webapp/pom.xml) points at org.dspace:dspace-oai-stats instead of org.dspace:dspace-oai, please verify your project structure @ org.dspace:dspace-oai-stats-webapp:[unknown-version], /home/EstudoGeral/dspace5-src_trab/dspace-oai-stats/dspace-oai-stats-webapp/pom.xml, line 14, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.dspace:dspace-parent:1.6.2, /home/dspace/.m2/repository/org/dspace/dspace-parent/1.6.2/dspace-parent-1.6.2.pom, line 34, column 18
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.dspace:dspace-parent:1.6.2, /home/dspace/.m2/repository/org/dspace/dspace-parent/1.6.2/dspace-parent-1.6.2.pom, line 41, column 18
+[WARNING] 'distributionManagement.repository.id' must not contain any of these characters \/:"<>|?* but found / @ org.dspace:dspace-parent:1.6.2, /home/dspace/.m2/repository/org/dspace/dspace-parent/1.6.2/dspace-parent-1.6.2.pom, line 834, column 14
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] DSpace Parent Project
+[INFO] DSpace Services Framework :: API and Implementation
+[INFO] DSpace Kernel :: API and Implementation
+[INFO] DSpace Addon Modules
+[INFO] DSpace Kernel :: Additions and Local Customizations
+[INFO] DSpace OAI-Stats (by KEEP Solutions) :: Web Application Resources
+[INFO] DSpace OAI-Stats (by KEEP Solutions) :: API and Implementation
+[INFO] DSpace OAI STATS:: Web Application
+[INFO] DSpace XML-UI Mirage2 Theme
+[INFO] DSpace XML-UI Mirage2 Theme :: Local Customisations
+[INFO] DSpace XML-UI (Manakin) :: Local Customizations
+[INFO] DSpace UMinho STATS :: API and Implementation
+[INFO] DSpace JSP-UI
+[INFO] DSpace UMinho STATS :: API and Implementation
+[INFO] DSpace JSP-UI :: Local Customizations
+[INFO] DSpace RDF
+[INFO] DSpace RDF :: Local Customizations
+[INFO] DSpace REST :: API and Implementation
+[INFO] DSpace REST :: Local Customizations
+[INFO] DSpace SWORD
+[INFO] DSpace SWORD :: Local Customizations
+[INFO] DSpace SWORD v2
+[INFO] DSpace SWORD v2 :: Local Customizations
+[INFO] Apache Solr Webapp
+[INFO] DSpace SOLR :: Local Customizations
+[INFO] DSpace OAI-PMH
+[INFO] DSpace OAI-PMH :: Local Customizations
+[INFO] DSpace OAI-Stats (by KEEP Solutions)
+[INFO] DSpace Assembly and Configuration
+[INFO] DSpace UMinho STATS
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace Parent Project 5.5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ dspace-parent ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ dspace-parent ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[native2ascii] Converting 1 file from /home/EstudoGeral/dspace5-src_trab to /home/EstudoGeral/dspace5-src_trab/target
+[INFO] Executed tasks
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace Services Framework :: API and Implementation 5.5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ dspace-services ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ dspace-services ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ dspace-services ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ dspace-services ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 87 source files to /home/EstudoGeral/dspace5-src_trab/dspace-services/target/classes
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-services/src/main/java/org/dspace/services/sessions/model/SessionImpl.java: Some input files use or override a deprecated API.
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-services/src/main/java/org/dspace/services/sessions/model/SessionImpl.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-services/src/main/java/org/dspace/servicemanager/config/DSpaceConfigurationService.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-services/src/main/java/org/dspace/servicemanager/config/DSpaceConfigurationService.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ dspace-services ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ dspace-services ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ dspace-services ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.5:jar (default-jar) @ dspace-services ---
+[INFO] Building jar: /home/EstudoGeral/dspace5-src_trab/dspace-services/target/dspace-services-5.5.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace Kernel :: API and Implementation 5.5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ dspace-api ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9:maven-version (default) @ dspace-api ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ dspace-api ---
+[INFO] Executing: /bin/sh -c cd /home/EstudoGeral/dspace5-src_trab/dspace-api && git rev-parse --verify HEAD
+[INFO] Working directory: /home/EstudoGeral/dspace5-src_trab/dspace-api
+[INFO] Storing buildNumber: null at timestamp: 1476791988096
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[INFO] Executing: /bin/sh -c cd /home/EstudoGeral/dspace5-src_trab/dspace-api && git rev-parse --verify HEAD
+[INFO] Working directory: /home/EstudoGeral/dspace5-src_trab/dspace-api
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ dspace-api ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ dspace-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 53 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ dspace-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 718 source files to /home/EstudoGeral/dspace5-src_trab/dspace-api/target/classes
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/ctask/general/MicrosoftTranslator.java:[17,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/app/util/AbstractDSpaceWebapp.java:[21,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/statistics/SolrLogger.java:[20,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/submit/lookup/CiNiiService.java:[25,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/submit/lookup/CiNiiService.java:[26,30] org.apache.http.params.CoreConnectionPNames in org.apache.http.params has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/ctask/general/MetadataWebService.java:[37,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/identifier/doi/DOIConsumer.java:[22,25] org.dspace.search.SearchConsumer in org.dspace.search has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/authority/LCNameAuthority.java:[35,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/authority/SHERPARoMEOProtocol.java:[30,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/discovery/SolrServiceImpl.java:[45,37] org.apache.http.client.params.ClientPNames in org.apache.http.client.params has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/discovery/SolrServiceImpl.java:[47,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/app/itemimport/ItemImport.java:[58,25] org.dspace.search.DSIndexer in org.dspace.search has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/app/mediafilter/MediaFilterManager.java:[46,25] org.dspace.search.DSIndexer in org.dspace.search has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/submit/lookup/CrossRefService.java:[46,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/submit/lookup/CrossRefService.java:[47,30] org.apache.http.params.CoreConnectionPNames in org.apache.http.params has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/identifier/doi/DataCiteConnector.java:[27,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/storage/rdbms/DatabaseLegacyReindexer.java:[16,25] org.dspace.search.DSIndexer in org.dspace.search has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/Item.java:[1146,33] getMetadata(java.lang.String) in org.dspace.content.Collection has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/Item.java:[1157,9] addDC(java.lang.String,java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/Item.java:[1203,33] getMetadata(java.lang.String) in org.dspace.content.Collection has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/Item.java:[1216,9] addDC(java.lang.String,java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/packager/METSManifest.java:[205,43] toURL() in java.io.File has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/identifier/doi/DOIOrganiser.java:[434,68] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to java.lang.Object for a varargs call
+  cast to java.lang.Object[] for a non-varargs call and to suppress this warning
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/ItemComparator.java:[179,36] getDC(java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/authenticate/LDAPAuthentication.java:[284,36] setIgnoreAuthorization(boolean) in org.dspace.core.Context has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/authenticate/LDAPAuthentication.java:[288,36] setIgnoreAuthorization(boolean) in org.dspace.core.Context has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/authenticate/LDAPAuthentication.java:[303,44] setIgnoreAuthorization(boolean) in org.dspace.core.Context has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/authenticate/LDAPAuthentication.java:[319,48] setMetadata(java.lang.String,java.lang.String) in org.dspace.eperson.EPerson has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/authenticate/LDAPAuthentication.java:[337,44] setIgnoreAuthorization(boolean) in org.dspace.core.Context has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/authenticate/LDAPAuthentication.java:[359,32] setIgnoreAuthorization(boolean) in org.dspace.core.Context has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/authenticate/X509Authentication.java:[615,32] setIgnoreAuthorization(boolean) in org.dspace.core.Context has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/authenticate/X509Authentication.java:[623,32] setIgnoreAuthorization(boolean) in org.dspace.core.Context has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/embargo/DefaultEmbargoSetter.java:[110,65] toGMTString() in java.util.Date has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/embargo/DefaultEmbargoSetter.java:[131,224] toGMTString() in java.util.Date has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/embargo/DefaultEmbargoSetter.java:[131,270] toGMTString() in java.util.Date has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/ctask/general/MicrosoftTranslator.java:[60,33] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/packager/PDFPackager.java:[337,17] addDC(java.lang.String,java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/packager/PDFPackager.java:[341,21] addDC(java.lang.String,java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/packager/PDFPackager.java:[351,21] addDC(java.lang.String,java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/packager/PDFPackager.java:[358,21] addDC(java.lang.String,java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/packager/PDFPackager.java:[365,21] addDC(java.lang.String,java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/packager/PDFPackager.java:[371,21] addDC(java.lang.String,java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/packager/PDFPackager.java:[384,21] addDC(java.lang.String,java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/license/LicenseCleanup.java:[75,12] setIgnoreAuthorization(boolean) in org.dspace.core.Context has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/app/util/AbstractDSpaceWebapp.java:[127,41] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/identifier/VersionedHandleIdentifierProvider.java:[636,39] getDC(java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/identifier/VersionedHandleIdentifierProvider.java:[646,17] addDC(java.lang.String,java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/identifier/VersionedHandleIdentifierProvider.java:[655,13] addDC(java.lang.String,java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/app/statistics/CreateStatReport.java:[95,16] setIgnoreAuthorization(boolean) in org.dspace.core.Context has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/browse/BrowseDAOOracle.java:[967,33] truncateValue(java.lang.String,int) in org.dspace.browse.BrowseDAOUtils has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/statistics/SolrLogger.java:[1167,22] setSortField(java.lang.String,org.apache.solr.client.solrj.SolrQuery.ORDER) in org.apache.solr.client.solrj.SolrQuery has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/statistics/SolrLogger.java:[1328,45] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/statistics/SolrLogger.java:[1405,45] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/submit/lookup/CiNiiService.java:[86,37] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/submit/lookup/CiNiiService.java:[87,48] org.apache.http.params.CoreConnectionPNames in org.apache.http.params has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/submit/lookup/CiNiiService.java:[87,19] getParams() in org.apache.http.client.HttpClient has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/submit/lookup/CiNiiService.java:[151,37] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/submit/lookup/CiNiiService.java:[152,48] org.apache.http.params.CoreConnectionPNames in org.apache.http.params has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/submit/lookup/CiNiiService.java:[152,19] getParams() in org.apache.http.client.HttpClient has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/eperson/Subscribe.java:[459,30] getMetadata(java.lang.String) in org.dspace.content.Collection has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/eperson/Subscribe.java:[467,54] getDC(java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/eperson/Subscribe.java:[479,55] getDC(java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/authorize/FixDefaultPolicies.java:[39,10] setIgnoreAuthorization(boolean) in org.dspace.core.Context has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/authorize/FixDefaultPolicies.java:[50,59] getMetadata(java.lang.String) in org.dspace.content.Collection has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/authorize/FixDefaultPolicies.java:[93,58] getMetadata(java.lang.String) in org.dspace.content.Community has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/app/statistics/ReportGenerator.java:[154,16] setIgnoreAuthorization(boolean) in org.dspace.core.Context has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/app/statistics/ReportGenerator.java:[804,33] getDC(java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/app/statistics/ReportGenerator.java:[805,34] getDC(java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/crosswalk/XSLTIngestionCrosswalk.java:[238,47] setMetadata(java.lang.String,java.lang.String) in org.dspace.content.Collection has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/crosswalk/XSLTIngestionCrosswalk.java:[242,46] setMetadata(java.lang.String,java.lang.String) in org.dspace.content.Community has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/InstallItem.java:[129,43] getDC(java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/InstallItem.java:[132,21] addDC(java.lang.String,java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/InstallItem.java:[139,45] getDC(java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/InstallItem.java:[140,13] clearDC(java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/InstallItem.java:[146,21] addDC(java.lang.String,java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/InstallItem.java:[150,21] addDC(java.lang.String,java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/InstallItem.java:[156,13] addDC(java.lang.String,java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/InstallItem.java:[168,13] addDC(java.lang.String,java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/InstallItem.java:[176,18] addDC(java.lang.String,java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/InstallItem.java:[183,45] getDC(java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/InstallItem.java:[184,13] clearDC(java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/InstallItem.java:[190,21] addDC(java.lang.String,java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/InstallItem.java:[194,21] addDC(java.lang.String,java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/content/InstallItem.java:[215,13] addDC(java.lang.String,java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/workflow/WorkflowManager.java:[811,35] getDC(java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/workflow/WorkflowManager.java:[831,35] getMetadata(java.lang.String) in org.dspace.content.Collection has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/workflow/WorkflowManager.java:[843,50] getMetadata(java.lang.String) in org.dspace.content.Collection has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/workflow/WorkflowManager.java:[944,15] addDC(java.lang.String,java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/workflow/WorkflowManager.java:[1009,39] getMetadata(java.lang.String) in org.dspace.content.Collection has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/workflow/WorkflowManager.java:[1059,43] getMetadata(java.lang.String) in org.dspace.content.Collection has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/workflow/WorkflowManager.java:[1121,35] getMetadata(java.lang.String) in org.dspace.content.Collection has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/workflow/WorkflowManager.java:[1167,36] getDC(java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/workflow/WorkflowManager.java:[1221,13] addDC(java.lang.String,java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/workflow/WorkflowManager.java:[1252,15] addDC(java.lang.String,java.lang.String,java.lang.String,java.lang.String) in org.dspace.content.DSpaceObject has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/submit/lookup/ArXivOnlineDataLoader.java:[34,56] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/submit/lookup/ArXivOnlineDataLoader.java:[36,40] org.apache.http.params.CoreConnectionPNames in org.apache.http.params has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/submit/lookup/ArXivOnlineDataLoader.java:[40,29] org.apache.http.params.HttpParams in org.apache.http.params has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/submit/lookup/ArXivService.java:[92,41] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/submit/lookup/ArXivService.java:[93,13] org.apache.http.params.HttpParams in org.apache.http.params has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/submit/lookup/ArXivService.java:[93,39] getParams() in org.apache.http.client.HttpClient has been deprecated
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/submit/lookup/ArXivService.java: Some input files additionally use or override a deprecated API.
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/submit/AbstractProcessingStep.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-api/src/main/java/org/dspace/submit/AbstractProcessingStep.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ dspace-api ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ dspace-api ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ dspace-api ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.5:jar (default-jar) @ dspace-api ---
+[INFO] Building jar: /home/EstudoGeral/dspace5-src_trab/dspace-api/target/dspace-api-5.5.jar
+[INFO] 
+[INFO] --- maven-jar-plugin:2.5:test-jar (default) @ dspace-api ---
+[INFO] Skipping packaging of the test-jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace Addon Modules 5.5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ modules ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ modules ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[INFO] Executed tasks
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace Kernel :: Additions and Local Customizations 5.5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ additions ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ additions ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ additions ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ additions ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/EstudoGeral/dspace5-src_trab/dspace/modules/additions/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ additions ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ additions ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ additions ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.5:jar (default-jar) @ additions ---
+[INFO] Building jar: /home/EstudoGeral/dspace5-src_trab/dspace/modules/additions/target/additions-5.5.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace OAI-Stats (by KEEP Solutions) :: Web Application Resources 1.6.2
+[INFO] ------------------------------------------------------------------------
+Downloading: http://maven.dspace.org/snapshot/org/dspace/dspace-api-lang/maven-metadata.xml
+Downloading: http://download.java.net/maven/2/org/dspace/dspace-api-lang/maven-metadata.xml
+[WARNING] Could not transfer metadata org.dspace:dspace-api-lang/maven-metadata.xml from/to maven.dspace.org-snapshot (http://maven.dspace.org/snapshot): maven.dspace.org: Name or service not known
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ dspace-oai-stats-webapp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/EstudoGeral/dspace5-src_trab/dspace-oai-stats/dspace-oai-stats-webapp/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ dspace-oai-stats-webapp ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ dspace-oai-stats-webapp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/EstudoGeral/dspace5-src_trab/dspace-oai-stats/dspace-oai-stats-webapp/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ dspace-oai-stats-webapp ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ dspace-oai-stats-webapp ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-war-plugin:2.1-beta-1:war (default-war) @ dspace-oai-stats-webapp ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp[dspace-oai-stats-webapp] in [/home/EstudoGeral/dspace5-src_trab/dspace-oai-stats/dspace-oai-stats-webapp/target/dspace-oai-stats-webapp-1.6.2]
+[INFO] Processing war project
+[INFO] Copying webapp webResources[/home/EstudoGeral/dspace5-src_trab/dspace-oai-stats/dspace-oai-stats-webapp/src/main/webapp] to[/home/EstudoGeral/dspace5-src_trab/dspace-oai-stats/dspace-oai-stats-webapp/target/dspace-oai-stats-webapp-1.6.2]
+[INFO] Copying webapp resources[/home/EstudoGeral/dspace5-src_trab/dspace-oai-stats/dspace-oai-stats-webapp/src/main/webapp]
+[INFO] Webapp assembled in [1404 msecs]
+[INFO] Building war: /home/EstudoGeral/dspace5-src_trab/dspace-oai-stats/dspace-oai-stats-webapp/target/dspace-oai-stats-webapp-1.6.2.war
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace OAI-Stats (by KEEP Solutions) :: API and Implementation 1.6.2
+[INFO] ------------------------------------------------------------------------
+[WARNING] Failure to transfer org.dspace:dspace-api-lang/maven-metadata.xml from http://maven.dspace.org/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of maven.dspace.org-snapshot has elapsed or updates are forced. Original error: Could not transfer metadata org.dspace:dspace-api-lang/maven-metadata.xml from/to maven.dspace.org-snapshot (http://maven.dspace.org/snapshot): maven.dspace.org: Name or service not known
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ dspace-oai-stats-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/EstudoGeral/dspace5-src_trab/dspace-oai-stats/dspace-oai-stats-api/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ dspace-oai-stats-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 12 source files to /home/EstudoGeral/dspace5-src_trab/dspace-oai-stats/dspace-oai-stats-api/target/classes
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-oai-stats/dspace-oai-stats-api/src/main/java/org/dspace/app/oai/events/EventsUtils.java: /home/EstudoGeral/dspace5-src_trab/dspace-oai-stats/dspace-oai-stats-api/src/main/java/org/dspace/app/oai/events/EventsUtils.java uses or overrides a deprecated API.
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-oai-stats/dspace-oai-stats-api/src/main/java/org/dspace/app/oai/events/EventsUtils.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-oai-stats/dspace-oai-stats-api/src/main/java/org/dspace/app/oai/DSpaceOAICatalog.java: /home/EstudoGeral/dspace5-src_trab/dspace-oai-stats/dspace-oai-stats-api/src/main/java/org/dspace/app/oai/DSpaceOAICatalog.java uses unchecked or unsafe operations.
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-oai-stats/dspace-oai-stats-api/src/main/java/org/dspace/app/oai/DSpaceOAICatalog.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ dspace-oai-stats-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/EstudoGeral/dspace5-src_trab/dspace-oai-stats/dspace-oai-stats-api/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ dspace-oai-stats-api ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ dspace-oai-stats-api ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ dspace-oai-stats-api ---
+[INFO] Building jar: /home/EstudoGeral/dspace5-src_trab/dspace-oai-stats/dspace-oai-stats-api/target/dspace-oai-stats-api-1.6.2.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace OAI STATS:: Web Application 5.5
+[INFO] ------------------------------------------------------------------------
+[WARNING] Failure to transfer org.dspace:dspace-api-lang/maven-metadata.xml from http://maven.dspace.org/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of maven.dspace.org-snapshot has elapsed or updates are forced. Original error: Could not transfer metadata org.dspace:dspace-api-lang/maven-metadata.xml from/to maven.dspace.org-snapshot (http://maven.dspace.org/snapshot): maven.dspace.org: Name or service not known
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ oai-stats ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ oai-stats ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ oai-stats ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/EstudoGeral/dspace5-src_trab/dspace/modules/oai-stats/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ oai-stats ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ oai-stats ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ oai-stats ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ oai-stats ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-war-plugin:2.4:war (default-war) @ oai-stats ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [oai-stats] in [/home/EstudoGeral/dspace5-src_trab/dspace/modules/oai-stats/target/oai-stats-5.5]
+[INFO] Processing war project
+[INFO] Copying webapp webResources [/home/EstudoGeral/dspace5-src_trab/dspace/modules/oai-stats/src/main/webapp] to [/home/EstudoGeral/dspace5-src_trab/dspace/modules/oai-stats/target/oai-stats-5.5]
+[INFO] Copying webapp resources [/home/EstudoGeral/dspace5-src_trab/dspace/modules/oai-stats/src/main/webapp]
+[INFO] Processing overlay [ id org.dspace:dspace-oai-stats-webapp]
+[INFO] Webapp assembled in [1851 msecs]
+[INFO] Building war: /home/EstudoGeral/dspace5-src_trab/dspace/modules/oai-stats/target/oai-stats-5.5.war
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace XML-UI Mirage2 Theme 5.5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ dspace-xmlui-mirage2 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ dspace-xmlui-mirage2 ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ dspace-xmlui-mirage2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/EstudoGeral/dspace5-src_trab/dspace-xmlui-mirage2/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ dspace-xmlui-mirage2 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ dspace-xmlui-mirage2 ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ dspace-xmlui-mirage2 ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ dspace-xmlui-mirage2 ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-war-plugin:2.4:war (default-war) @ dspace-xmlui-mirage2 ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [dspace-xmlui-mirage2] in [/home/EstudoGeral/dspace5-src_trab/dspace-xmlui-mirage2/target/dspace-xmlui-mirage2-5.5]
+[INFO] Processing war project
+[INFO] Copying webapp webResources [/home/EstudoGeral/dspace5-src_trab/dspace-xmlui-mirage2/src/main/webapp] to [/home/EstudoGeral/dspace5-src_trab/dspace-xmlui-mirage2/target/dspace-xmlui-mirage2-5.5]
+[INFO] Copying webapp resources [/home/EstudoGeral/dspace5-src_trab/dspace-xmlui-mirage2/src/main/webapp]
+[INFO] Webapp assembled in [108 msecs]
+[INFO] Building war: /home/EstudoGeral/dspace5-src_trab/dspace-xmlui-mirage2/target/dspace-xmlui-mirage2-5.5.war
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace XML-UI Mirage2 Theme :: Local Customisations 5.5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ xmlui-mirage2 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (default) @ xmlui-mirage2 ---
+[WARNING] Parameter tasks is deprecated, use target instead
+[INFO] Executing tasks
+
+main:
+     [echo] PATH=/usr/local/rvm/gems/ruby-2.3.0/bin:/usr/local/rvm/gems/ruby-2.3.0@global/bin:/usr/local/rvm/rubies/ruby-2.3.0/bin:/var/maven/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/local/rvm/bin:/home/dspace/.local/bin:/home/dspace/bin
+     [echo] GEM_PATH=/usr/local/rvm/gems/ruby-2.3.0:/usr/local/rvm/gems/ruby-2.3.0@global
+     [echo] GEM_HOME=/usr/local/rvm/gems/ruby-2.3.0
+     [echo] mirage2.deps.included=true
+     [echo] grunt.color.scheme=classic_mirage_color_scheme
+     [echo] grunt.environment=prod
+     [echo] source=/home/EstudoGeral/dspace5-src_trab/dspace/modules/xmlui-mirage2/src/main/webapp/themes/
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- gem-maven-plugin:1.0.6:initialize (default) @ xmlui-mirage2 ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:unpack-dependencies (unpack-dependencies) @ xmlui-mirage2 ---
+[INFO] Unpacking /home/EstudoGeral/dspace5-src_trab/dspace-xmlui-mirage2/target/dspace-xmlui-mirage2-5.5.war to /home/EstudoGeral/dspace5-src_trab/dspace/modules/xmlui-mirage2/target/mirage2-source-extracted with includes "" and excludes "WEB-INF/**,META-INF/**"
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ xmlui-mirage2 ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ xmlui-mirage2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/EstudoGeral/dspace5-src_trab/dspace/modules/xmlui-mirage2/src/main/resources
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:copy-resources (default) @ xmlui-mirage2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ xmlui-mirage2 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ xmlui-mirage2 ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ xmlui-mirage2 ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ xmlui-mirage2 ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- iterator-maven-plugin:0.3:iterator (default) @ xmlui-mirage2 ---
+[INFO] ------ (Mirage2) org.apache.maven.plugins:maven-resources-plugin:2.6:copy-resources
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 133 resources
+[INFO] ------ (Mirage2) org.apache.maven.plugins:maven-resources-plugin:2.6:copy-resources
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] ------ (Mirage2) com.github.eirslett:frontend-maven-plugin:0.0.23:install-node-and-npm
+[INFO] Node v0.10.31 is already installed.
+[INFO] Found NPM version 1.4.23
+[INFO] ------ (Mirage2) com.github.eirslett:frontend-maven-plugin:0.0.23:npm
+[INFO] Running 'npm install --color=false' in /home/EstudoGeral/dspace5-src_trab/dspace/modules/xmlui-mirage2/target/themes/Mirage2
+[ERROR] npm WARN package.json Mirage2@0.1.1 No description
+[ERROR] npm WARN package.json Mirage2@0.1.1 No repository field.
+[ERROR] npm WARN package.json Mirage2@0.1.1 No README data
+[INFO] 
+[INFO] > Mirage2@0.1.1 postinstall /home/EstudoGeral/dspace5-src_trab/dspace/modules/xmlui-mirage2/target/themes/Mirage2
+[INFO] > bower install
+[INFO] 
+[INFO] ------ (Mirage2) com.github.eirslett:frontend-maven-plugin:0.0.23:grunt
+[INFO] Running 'grunt classic_mirage_color_scheme no-compass-prod --no-color' in /home/EstudoGeral/dspace5-src_trab/dspace/modules/xmlui-mirage2/target/themes/Mirage2
+[INFO] Running "copy:classic_mirage_color_scheme" (copy) task
+[INFO] Copied 1 files
+[INFO] 
+[INFO] Running "copy:scriptsxml" (copy) task
+[INFO] Copied 1 files
+[INFO] 
+[INFO] Running "coffee:glob_to_multiple" (coffee) task
+[INFO] 
+[INFO] Running "handlebars:compile" (handlebars) task
+[INFO] >> 1 file created.
+[INFO] 
+[INFO] Running "useminPrepare:src" (useminPrepare) task
+[INFO] Going through scripts-dist.xml to update the config
+[INFO] Looking for build script HTML comment blocks
+[INFO] 
+[INFO] Configuration is now:
+[INFO] 
+[INFO]   concat:
+[INFO]   { generated: 
+[INFO]    { files: 
+[INFO]       [ { dest: '.tmp/concat/scripts/theme.js',
+[INFO]           src: 
+[INFO]            [ 'vendor/jquery/jquery.min.js',
+[INFO]              'vendor/jquery-ui/ui/jquery.ui.core.js',
+[INFO]              'vendor/jquery-ui/ui/jquery.ui.datepicker.js',
+[INFO]              'vendor/handlebars/handlebars.js',
+[INFO]              'vendor/holderjs/holder.js',
+[INFO]              'vendor/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js',
+[INFO]              'vendor/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js',
+[INFO]              'vendor/bootstrap-sass-official/assets/javascripts/bootstrap/button.js',
+[INFO]              'vendor/bootstrap-sass-official/assets/javascripts/bootstrap/carousel.js',
+[INFO]              'vendor/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js',
+[INFO]              'vendor/bootstrap-sass-official/assets/javascripts/bootstrap/dropdown.js',
+[INFO]              'vendor/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js',
+[INFO]              'vendor/bootstrap-sass-official/assets/javascripts/bootstrap/scrollspy.js',
+[INFO]              'vendor/bootstrap-sass-official/assets/javascripts/bootstrap/tab.js',
+[INFO]              'vendor/bootstrap-sass-official/assets/javascripts/bootstrap/tooltip.js',
+[INFO]              'vendor/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js',
+[INFO]              'vendor/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js',
+[INFO]              'scripts/utils.js',
+[INFO]              'scripts/search-controls.js',
+[INFO]              'scripts/sidebar.js',
+[INFO]              'scripts/community-list.js',
+[INFO]              'scripts/browse.js',
+[INFO]              'scripts/choice-support.js',
+[INFO]              'scripts/vocabulary-support.js',
+[INFO]              'scripts/access-form-util.js',
+[INFO]              'scripts/forms.js',
+[INFO]              'scripts/vendor-extensions.js',
+[INFO]              'scripts/google-stats-dates.js',
+[INFO]              'scripts/templates.js',
+[INFO]              'vendor/datatables/media/js/jquery.dataTables.js',
+[INFO]              'scripts/person-lookup.js' ] } ] } }
+[INFO] 
+[INFO]   uglify:
+[INFO]   { generated: 
+[INFO]    { files: 
+[INFO]       [ { dest: 'scripts/theme.js',
+[INFO]           src: [ '.tmp/concat/scripts/theme.js' ] } ] } }
+[INFO] 
+[INFO]   cssmin:
+[INFO]   {}
+[INFO] 
+[INFO] Running "concat:generated" (concat) task
+[INFO] File ".tmp/concat/scripts/theme.js" created.
+[INFO] 
+[INFO] Running "uglify:generated" (uglify) task
+[INFO] File scripts/theme.js created: 880.47 kB → 351.01 kB
+[INFO] 
+[INFO] Running "usemin:html" (usemin) task
+[INFO] 
+[INFO] Processing as HTML - scripts-dist.xml
+[INFO] Update the HTML to reference our concat/min/revved script files
+[INFO] Update the HTML with the new css filenames
+[INFO] Update the HTML with the new img filenames
+[INFO] Update the HTML with data-main tags
+[INFO] Update the HTML with data-* tags
+[INFO] Update the HTML with background imgs, case there is some inline style
+[INFO] Update the HTML with anchors images
+[INFO] Update the HTML with reference in input
+[INFO] 
+[INFO] Done, without errors.
+[INFO] ------ (Mirage2) de.saumya.mojo:gem-maven-plugin:1.0.6:exec
+[INFO] [33m modified[0m config.rb
+[INFO] [33m    clean[0m styles
+[INFO] [33m   delete[0m styles/main.css
+[INFO] [32m    write[0m styles/main.css
+[INFO] 
+[INFO] --- maven-war-plugin:2.4:war (default-war) @ xmlui-mirage2 ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [xmlui-mirage2] in [/home/EstudoGeral/dspace5-src_trab/dspace/modules/xmlui-mirage2/target/xmlui-mirage2-5.5]
+[INFO] Processing war project
+[INFO] Copying webapp webResources [/home/EstudoGeral/dspace5-src_trab/dspace/modules/xmlui-mirage2/src/main/webapp] to [/home/EstudoGeral/dspace5-src_trab/dspace/modules/xmlui-mirage2/target/xmlui-mirage2-5.5]
+[INFO] Copying webapp webResources [/home/EstudoGeral/dspace5-src_trab/dspace/modules/xmlui-mirage2/target/themes] to [/home/EstudoGeral/dspace5-src_trab/dspace/modules/xmlui-mirage2/target/xmlui-mirage2-5.5]
+[INFO] Copying webapp resources [/home/EstudoGeral/dspace5-src_trab/dspace/modules/xmlui-mirage2/src/main/webapp]
+[INFO] Processing overlay [ id org.dspace:dspace-xmlui-mirage2]
+[INFO] Webapp assembled in [5366 msecs]
+[INFO] Building war: /home/EstudoGeral/dspace5-src_trab/dspace/modules/xmlui-mirage2/target/xmlui-mirage2-5.5.war
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace XML-UI (Manakin) :: Local Customizations 5.5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ xmlui ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ xmlui ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ xmlui ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/EstudoGeral/dspace5-src_trab/dspace/modules/xmlui/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ xmlui ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ xmlui ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ xmlui ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ xmlui ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-war-plugin:2.4:war (default-war) @ xmlui ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [xmlui] in [/home/EstudoGeral/dspace5-src_trab/dspace/modules/xmlui/target/xmlui-5.5]
+[INFO] Processing war project
+[INFO] Copying webapp webResources [/home/EstudoGeral/dspace5-src_trab/dspace/modules/xmlui/src/main/webapp] to [/home/EstudoGeral/dspace5-src_trab/dspace/modules/xmlui/target/xmlui-5.5]
+[INFO] Copying webapp resources [/home/EstudoGeral/dspace5-src_trab/dspace/modules/xmlui/src/main/webapp]
+[INFO] Processing overlay [ id org.dspace.modules:xmlui-mirage2]
+[INFO] Processing overlay [ id org.dspace:dspace-xmlui-lang]
+[INFO] Processing overlay [ id org.dspace:dspace-xmlui]
+[INFO] Webapp assembled in [3832 msecs]
+[INFO] Building war: /home/EstudoGeral/dspace5-src_trab/dspace/modules/xmlui/target/xmlui-5.5.war
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace UMinho STATS :: API and Implementation 5.5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ dspace-uminho-stats-api ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ dspace-uminho-stats-api ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ dspace-uminho-stats-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/EstudoGeral/dspace5-src_trab/dspace-uminho-stats/dspace-uminho-stats-api/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ dspace-uminho-stats-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 12 source files to /home/EstudoGeral/dspace5-src_trab/dspace-uminho-stats/dspace-uminho-stats-api/target/classes
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-uminho-stats/dspace-uminho-stats-api/src/main/java/org/dspace/app/stats/StatsAggregator.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-uminho-stats/dspace-uminho-stats-api/src/main/java/org/dspace/app/stats/StatsAggregator.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ dspace-uminho-stats-api ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ dspace-uminho-stats-api ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ dspace-uminho-stats-api ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.5:jar (default-jar) @ dspace-uminho-stats-api ---
+[INFO] Building jar: /home/EstudoGeral/dspace5-src_trab/dspace-uminho-stats/dspace-uminho-stats-api/target/dspace-uminho-stats-api-5.5.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace JSP-UI 5.5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ dspace-jspui ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ dspace-jspui ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ dspace-jspui ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ dspace-jspui ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 230 source files to /home/EstudoGeral/dspace5-src_trab/dspace-jspui/target/classes
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/ItemMapServlet.java: Some input files use or override a deprecated API.
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/ItemMapServlet.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-jspui/src/main/java/org/dspace/app/webui/util/stats/StatsReader.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-jspui/src/main/java/org/dspace/app/webui/util/stats/StatsReader.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ dspace-jspui ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ dspace-jspui ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ dspace-jspui ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-war-plugin:2.4:war (default-war) @ dspace-jspui ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [dspace-jspui] in [/home/EstudoGeral/dspace5-src_trab/dspace-jspui/target/dspace-jspui-5.5]
+[INFO] Processing war project
+[INFO] Copying webapp webResources [/home/EstudoGeral/dspace5-src_trab/dspace-jspui/src/main/webapp] to [/home/EstudoGeral/dspace5-src_trab/dspace-jspui/target/dspace-jspui-5.5]
+[INFO] Copying webapp resources [/home/EstudoGeral/dspace5-src_trab/dspace-jspui/src/main/webapp]
+[INFO] Webapp assembled in [2313 msecs]
+[INFO] Building war: /home/EstudoGeral/dspace5-src_trab/dspace-jspui/target/dspace-jspui-5.5.war
+[INFO] Packaging classes
+[INFO] Building jar: /home/EstudoGeral/dspace5-src_trab/dspace-jspui/target/dspace-jspui-5.5-classes.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace UMinho STATS :: API and Implementation 5.5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ dspace-uminho-stats-jspui-api ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ dspace-uminho-stats-jspui-api ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ dspace-uminho-stats-jspui-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/EstudoGeral/dspace5-src_trab/dspace-uminho-stats/dspace-uminho-stats-jspui-api/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ dspace-uminho-stats-jspui-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 12 source files to /home/EstudoGeral/dspace5-src_trab/dspace-uminho-stats/dspace-uminho-stats-jspui-api/target/classes
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-uminho-stats/dspace-uminho-stats-jspui-api/src/main/java/org/dspace/app/webui/util/stats/ChartGenerator.java: Some input files use or override a deprecated API.
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-uminho-stats/dspace-uminho-stats-jspui-api/src/main/java/org/dspace/app/webui/util/stats/ChartGenerator.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-uminho-stats/dspace-uminho-stats-jspui-api/src/main/java/org/dspace/app/webui/util/stats/StatsSet.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-uminho-stats/dspace-uminho-stats-jspui-api/src/main/java/org/dspace/app/webui/util/stats/StatsSet.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ dspace-uminho-stats-jspui-api ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ dspace-uminho-stats-jspui-api ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ dspace-uminho-stats-jspui-api ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.5:jar (default-jar) @ dspace-uminho-stats-jspui-api ---
+[INFO] Building jar: /home/EstudoGeral/dspace5-src_trab/dspace-uminho-stats/dspace-uminho-stats-jspui-api/target/dspace-uminho-stats-jspui-api-5.5.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace JSP-UI :: Local Customizations 5.5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ jspui ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ jspui ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jspui ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jspui ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jspui ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ jspui ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ jspui ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-war-plugin:2.4:war (default-war) @ jspui ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [jspui] in [/home/EstudoGeral/dspace5-src_trab/dspace/modules/jspui/target/jspui-5.5]
+[INFO] Processing war project
+[INFO] Copying webapp webResources [/home/EstudoGeral/dspace5-src_trab/dspace/modules/jspui/src/main/webapp] to [/home/EstudoGeral/dspace5-src_trab/dspace/modules/jspui/target/jspui-5.5]
+[INFO] Copying webapp resources [/home/EstudoGeral/dspace5-src_trab/dspace/modules/jspui/src/main/webapp]
+[INFO] Processing overlay [ id org.dspace:dspace-jspui]
+[INFO] Webapp assembled in [6008 msecs]
+[INFO] Building war: /home/EstudoGeral/dspace5-src_trab/dspace/modules/jspui/target/jspui-5.5.war
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace RDF 5.5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ dspace-rdf ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ dspace-rdf ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ dspace-rdf ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/EstudoGeral/dspace5-src_trab/dspace-rdf/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ dspace-rdf ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/EstudoGeral/dspace5-src_trab/dspace-rdf/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ dspace-rdf ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ dspace-rdf ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ dspace-rdf ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-war-plugin:2.4:war (default-war) @ dspace-rdf ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [dspace-rdf] in [/home/EstudoGeral/dspace5-src_trab/dspace-rdf/target/dspace-rdf-5.5]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/EstudoGeral/dspace5-src_trab/dspace-rdf/src/main/webapp]
+[INFO] Webapp assembled in [147 msecs]
+[INFO] Building war: /home/EstudoGeral/dspace5-src_trab/dspace-rdf/target/dspace-rdf-5.5.war
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace RDF :: Local Customizations 5.5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ rdf ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ rdf ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ rdf ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/EstudoGeral/dspace5-src_trab/dspace/modules/rdf/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ rdf ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ rdf ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ rdf ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ rdf ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-war-plugin:2.4:war (default-war) @ rdf ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [rdf] in [/home/EstudoGeral/dspace5-src_trab/dspace/modules/rdf/target/rdf-5.5]
+[INFO] Processing war project
+[INFO] Copying webapp webResources [/home/EstudoGeral/dspace5-src_trab/dspace/modules/rdf/src/main/webapp] to [/home/EstudoGeral/dspace5-src_trab/dspace/modules/rdf/target/rdf-5.5]
+[INFO] Copying webapp resources [/home/EstudoGeral/dspace5-src_trab/dspace/modules/rdf/src/main/webapp]
+[INFO] Processing overlay [ id org.dspace:dspace-rdf]
+[INFO] Webapp assembled in [3287 msecs]
+[INFO] Building war: /home/EstudoGeral/dspace5-src_trab/dspace/modules/rdf/target/rdf-5.5.war
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace REST :: API and Implementation 5.5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ dspace-rest ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ dspace-rest ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ dspace-rest ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/EstudoGeral/dspace5-src_trab/dspace-rest/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ dspace-rest ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 20 source files to /home/EstudoGeral/dspace5-src_trab/dspace-rest/target/classes
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-rest/src/main/java/org/dspace/rest/common/Collection.java: Some input files use or override a deprecated API.
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-rest/src/main/java/org/dspace/rest/common/Collection.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ dspace-rest ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ dspace-rest ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ dspace-rest ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-war-plugin:2.4:war (default-war) @ dspace-rest ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [dspace-rest] in [/home/EstudoGeral/dspace5-src_trab/dspace-rest/target/dspace-rest-5.5]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/EstudoGeral/dspace5-src_trab/dspace-rest/src/main/webapp]
+[INFO] Webapp assembled in [250 msecs]
+[INFO] Building war: /home/EstudoGeral/dspace5-src_trab/dspace-rest/target/dspace-rest-5.5.war
+[INFO] Packaging classes
+[INFO] Building jar: /home/EstudoGeral/dspace5-src_trab/dspace-rest/target/dspace-rest-5.5-classes.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace REST :: Local Customizations 5.5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ rest ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ rest ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ rest ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/EstudoGeral/dspace5-src_trab/dspace/modules/rest/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ rest ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ rest ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ rest ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ rest ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-war-plugin:2.4:war (default-war) @ rest ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [rest] in [/home/EstudoGeral/dspace5-src_trab/dspace/modules/rest/target/rest-5.5]
+[INFO] Processing war project
+[INFO] Copying webapp webResources [/home/EstudoGeral/dspace5-src_trab/dspace/modules/rest/src/main/webapp] to [/home/EstudoGeral/dspace5-src_trab/dspace/modules/rest/target/rest-5.5]
+[INFO] Copying webapp resources [/home/EstudoGeral/dspace5-src_trab/dspace/modules/rest/src/main/webapp]
+[INFO] Processing overlay [ id org.dspace:dspace-rest]
+[INFO] Webapp assembled in [2487 msecs]
+[INFO] Building war: /home/EstudoGeral/dspace5-src_trab/dspace/modules/rest/target/rest-5.5.war
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace SWORD 5.5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ dspace-sword ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ dspace-sword ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ dspace-sword ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/EstudoGeral/dspace5-src_trab/dspace-sword/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ dspace-sword ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 120 source files to /home/EstudoGeral/dspace5-src_trab/dspace-sword/target/classes
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-sword/src/main/java/org/purl/sword/client/Client.java: Some input files use or override a deprecated API.
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-sword/src/main/java/org/purl/sword/client/Client.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-sword/src/main/java/org/purl/sword/client/SWORDComboBox.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-sword/src/main/java/org/purl/sword/client/SWORDComboBox.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ dspace-sword ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ dspace-sword ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ dspace-sword ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-war-plugin:2.4:war (default-war) @ dspace-sword ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [dspace-sword] in [/home/EstudoGeral/dspace5-src_trab/dspace-sword/target/dspace-sword-5.5]
+[INFO] Processing war project
+[INFO] Copying webapp webResources [/home/EstudoGeral/dspace5-src_trab/dspace-sword/src/main/webapp] to [/home/EstudoGeral/dspace5-src_trab/dspace-sword/target/dspace-sword-5.5]
+[INFO] Copying webapp resources [/home/EstudoGeral/dspace5-src_trab/dspace-sword/src/main/webapp]
+[INFO] Webapp assembled in [170 msecs]
+[INFO] Building war: /home/EstudoGeral/dspace5-src_trab/dspace-sword/target/dspace-sword-5.5.war
+[INFO] Packaging classes
+[INFO] Building jar: /home/EstudoGeral/dspace5-src_trab/dspace-sword/target/dspace-sword-5.5-classes.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace SWORD :: Local Customizations 5.5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ sword ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ sword ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sword ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/EstudoGeral/dspace5-src_trab/dspace/modules/sword/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ sword ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ sword ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ sword ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ sword ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-war-plugin:2.4:war (default-war) @ sword ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [sword] in [/home/EstudoGeral/dspace5-src_trab/dspace/modules/sword/target/sword-5.5]
+[INFO] Processing war project
+[INFO] Copying webapp webResources [/home/EstudoGeral/dspace5-src_trab/dspace/modules/sword/src/main/webapp] to [/home/EstudoGeral/dspace5-src_trab/dspace/modules/sword/target/sword-5.5]
+[INFO] Copying webapp resources [/home/EstudoGeral/dspace5-src_trab/dspace/modules/sword/src/main/webapp]
+[INFO] Processing overlay [ id org.dspace:dspace-sword]
+[INFO] Webapp assembled in [1004 msecs]
+[INFO] Building war: /home/EstudoGeral/dspace5-src_trab/dspace/modules/sword/target/sword-5.5.war
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace SWORD v2 5.5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ dspace-swordv2 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ dspace-swordv2 ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ dspace-swordv2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/EstudoGeral/dspace5-src_trab/dspace-swordv2/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ dspace-swordv2 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 47 source files to /home/EstudoGeral/dspace5-src_trab/dspace-swordv2/target/classes
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-swordv2/src/main/java/org/dspace/sword2/SimpleDCEntryIngester.java: Some input files use or override a deprecated API.
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-swordv2/src/main/java/org/dspace/sword2/SimpleDCEntryIngester.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ dspace-swordv2 ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ dspace-swordv2 ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ dspace-swordv2 ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-war-plugin:2.4:war (default-war) @ dspace-swordv2 ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [dspace-swordv2] in [/home/EstudoGeral/dspace5-src_trab/dspace-swordv2/target/dspace-swordv2-5.5]
+[INFO] Processing war project
+[INFO] Copying webapp webResources [/home/EstudoGeral/dspace5-src_trab/dspace-swordv2/src/main/webapp] to [/home/EstudoGeral/dspace5-src_trab/dspace-swordv2/target/dspace-swordv2-5.5]
+[INFO] Copying webapp resources [/home/EstudoGeral/dspace5-src_trab/dspace-swordv2/src/main/webapp]
+[INFO] Processing overlay [ id org.swordapp:sword2-server]
+[INFO] Webapp assembled in [1925 msecs]
+[INFO] Building war: /home/EstudoGeral/dspace5-src_trab/dspace-swordv2/target/dspace-swordv2-5.5.war
+[INFO] Packaging classes
+[INFO] Building jar: /home/EstudoGeral/dspace5-src_trab/dspace-swordv2/target/dspace-swordv2-5.5-classes.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace SWORD v2 :: Local Customizations 5.5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ swordv2 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ swordv2 ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ swordv2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/EstudoGeral/dspace5-src_trab/dspace/modules/swordv2/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ swordv2 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ swordv2 ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ swordv2 ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ swordv2 ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-war-plugin:2.4:war (default-war) @ swordv2 ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [swordv2] in [/home/EstudoGeral/dspace5-src_trab/dspace/modules/swordv2/target/swordv2-5.5]
+[INFO] Processing war project
+[INFO] Copying webapp webResources [/home/EstudoGeral/dspace5-src_trab/dspace/modules/swordv2/src/main/webapp] to [/home/EstudoGeral/dspace5-src_trab/dspace/modules/swordv2/target/swordv2-5.5]
+[INFO] Copying webapp resources [/home/EstudoGeral/dspace5-src_trab/dspace/modules/swordv2/src/main/webapp]
+[INFO] Processing overlay [ id org.dspace:dspace-swordv2]
+[INFO] Processing overlay [ id org.swordapp:sword2-server]
+[INFO] Webapp assembled in [199 msecs]
+[INFO] Building war: /home/EstudoGeral/dspace5-src_trab/dspace/modules/swordv2/target/swordv2-5.5.war
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Solr Webapp 5.5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ dspace-solr ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ dspace-solr ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ dspace-solr ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/EstudoGeral/dspace5-src_trab/dspace-solr/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ dspace-solr ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/EstudoGeral/dspace5-src_trab/dspace-solr/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ dspace-solr ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ dspace-solr ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ dspace-solr ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-war-plugin:2.4:war (default-war) @ dspace-solr ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [dspace-solr] in [/home/EstudoGeral/dspace5-src_trab/dspace-solr/target/dspace-solr-5.5]
+[INFO] Processing war project
+[INFO] Copying webapp webResources [/home/EstudoGeral/dspace5-src_trab/dspace-solr/src/main/webapp] to [/home/EstudoGeral/dspace5-src_trab/dspace-solr/target/dspace-solr-5.5]
+[INFO] Copying webapp resources [/home/EstudoGeral/dspace5-src_trab/dspace-solr/src/main/webapp]
+[INFO] Processing overlay [ id org.apache.solr:solr]
+[INFO] Webapp assembled in [6538 msecs]
+[INFO] Building war: /home/EstudoGeral/dspace5-src_trab/dspace-solr/target/dspace-solr-5.5.war
+[INFO] 
+[INFO] --- maven-war-plugin:2.4:war (webapp) @ dspace-solr ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [dspace-solr] in [/home/EstudoGeral/dspace5-src_trab/dspace-solr/target/dspace-solr-5.5]
+[INFO] Processing war project
+[INFO] Copying webapp webResources [/home/EstudoGeral/dspace5-src_trab/dspace-solr/src/main/webapp] to [/home/EstudoGeral/dspace5-src_trab/dspace-solr/target/dspace-solr-5.5]
+[INFO] Copying webapp resources [/home/EstudoGeral/dspace5-src_trab/dspace-solr/src/main/webapp]
+[INFO] Building jar: /home/EstudoGeral/dspace5-src_trab/dspace-solr/target/dspace-solr-5.5/WEB-INF/lib/dspace-solr-5.5.jar
+[INFO] Processing overlay [ id org.apache.solr:solr]
+[INFO] Webapp assembled in [226 msecs]
+[INFO] Building war: /home/EstudoGeral/dspace5-src_trab/dspace-solr/target/dspace-solr-5.5.war
+[INFO] 
+[INFO] --- maven-war-plugin:2.4:war (skinny) @ dspace-solr ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [dspace-solr] in [/home/EstudoGeral/dspace5-src_trab/dspace-solr/target/dspace-solr-5.5]
+[INFO] Processing war project
+[INFO] Copying webapp webResources [/home/EstudoGeral/dspace5-src_trab/dspace-solr/src/main/webapp] to [/home/EstudoGeral/dspace5-src_trab/dspace-solr/target/dspace-solr-5.5]
+[INFO] Copying webapp resources [/home/EstudoGeral/dspace5-src_trab/dspace-solr/src/main/webapp]
+[INFO] Processing overlay [ id org.apache.solr:solr]
+[INFO] Webapp assembled in [1038 msecs]
+[INFO] Building war: /home/EstudoGeral/dspace5-src_trab/dspace-solr/target/dspace-solr-5.5-skinny.war
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace SOLR :: Local Customizations 5.5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ solr ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ solr ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ solr ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/EstudoGeral/dspace5-src_trab/dspace/modules/solr/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ solr ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ solr ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ solr ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ solr ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-war-plugin:2.4:war (default-war) @ solr ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [solr] in [/home/EstudoGeral/dspace5-src_trab/dspace/modules/solr/target/solr-5.5]
+[INFO] Processing war project
+[INFO] Processing overlay [ id org.apache.solr:solr]
+[INFO] Processing overlay [ id org.dspace:dspace-solr:skinny]
+[INFO] Webapp assembled in [843 msecs]
+[INFO] Building war: /home/EstudoGeral/dspace5-src_trab/dspace/modules/solr/target/solr-5.5.war
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace OAI-PMH 5.5
+[INFO] ------------------------------------------------------------------------
+Downloading: https://oss.sonatype.org/content/repositories/releases/org/dspace/xoai/3.2.10/xoai-3.2.10.pom
+4/8 KB   8/8 KB   8/8 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/org/dspace/xoai/3.2.10/xoai-3.2.10.pom (8 KB at 4.8 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/org/dspace/xoai/3.2.10/xoai-3.2.10.jar
+4/315 KB   8/315 KB   12/315 KB   16/315 KB   20/315 KB   24/315 KB   28/315 KB   32/315 KB   32/315 KB   36/315 KB   40/315 KB   41/315 KB   45/315 KB   49/315 KB   53/315 KB   57/315 KB   61/315 KB   65/315 KB   69/315 KB   73/315 KB   77/315 KB   81/315 KB   85/315 KB   89/315 KB   93/315 KB   97/315 KB   101/315 KB   105/315 KB   109/315 KB   113/315 KB   117/315 KB   121/315 KB   125/315 KB   129/315 KB   133/315 KB   137/315 KB   141/315 KB   145/315 KB   149/315 KB   153/315 KB   157/315 KB   161/315 KB   165/315 KB   169/315 KB   173/315 KB   177/315 KB   181/315 KB   185/315 KB   189/315 KB   193/315 KB   197/315 KB   201/315 KB   205/315 KB   209/315 KB   213/315 KB   217/315 KB   221/315 KB   225/315 KB   229/315 KB   233/315 KB   237/315 KB   241/315 KB   245/315 KB   249/315 KB   253/315 KB   257/315 KB   261/315 KB   265/315 KB   269/315 KB   273/315 KB   277/315 KB   281/315 KB   285/315 KB   289/315 KB   293/315 KB   297/315 KB   301/315 KB   305/315 KB   309/315 KB   313/315 KB   315/315 KB                Downloaded: https://oss.sonatype.org/content/repositories/releases/org/dspace/xoai/3.2.10/xoai-3.2.10.jar (315 KB at 97.6 KB/sec)
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ dspace-oai ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ dspace-oai ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ dspace-oai ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/EstudoGeral/dspace5-src_trab/dspace-oai/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ dspace-oai ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 88 source files to /home/EstudoGeral/dspace5-src_trab/dspace-oai/target/classes
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-oai/src/main/java/org/dspace/xoai/solr/DSpaceSolrSearch.java: /home/EstudoGeral/dspace5-src_trab/dspace-oai/src/main/java/org/dspace/xoai/solr/DSpaceSolrSearch.java uses or overrides a deprecated API.
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-oai/src/main/java/org/dspace/xoai/solr/DSpaceSolrSearch.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-oai/src/main/java/org/dspace/xoai/services/impl/DSpaceServiceResolver.java: /home/EstudoGeral/dspace5-src_trab/dspace-oai/src/main/java/org/dspace/xoai/services/impl/DSpaceServiceResolver.java uses unchecked or unsafe operations.
+[WARNING] /home/EstudoGeral/dspace5-src_trab/dspace-oai/src/main/java/org/dspace/xoai/services/impl/DSpaceServiceResolver.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ dspace-oai ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ dspace-oai ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ dspace-oai ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-war-plugin:2.4:war (default-war) @ dspace-oai ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [dspace-oai] in [/home/EstudoGeral/dspace5-src_trab/dspace-oai/target/dspace-oai-5.5]
+[INFO] Processing war project
+[INFO] Copying webapp webResources [/home/EstudoGeral/dspace5-src_trab/dspace-oai/src/main/webapp] to [/home/EstudoGeral/dspace5-src_trab/dspace-oai/target/dspace-oai-5.5]
+[INFO] Copying webapp resources [/home/EstudoGeral/dspace5-src_trab/dspace-oai/src/main/webapp]
+[INFO] Webapp assembled in [698 msecs]
+[INFO] Building war: /home/EstudoGeral/dspace5-src_trab/dspace-oai/target/dspace-oai-5.5.war
+[INFO] Packaging classes
+[INFO] Building jar: /home/EstudoGeral/dspace5-src_trab/dspace-oai/target/dspace-oai-5.5-classes.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace OAI-PMH :: Local Customizations 5.5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ oai ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ oai ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ oai ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/EstudoGeral/dspace5-src_trab/dspace/modules/oai/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ oai ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ oai ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ oai ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ oai ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-war-plugin:2.4:war (default-war) @ oai ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [oai] in [/home/EstudoGeral/dspace5-src_trab/dspace/modules/oai/target/oai-5.5]
+[INFO] Processing war project
+[INFO] Copying webapp webResources [/home/EstudoGeral/dspace5-src_trab/dspace/modules/oai/src/main/webapp] to [/home/EstudoGeral/dspace5-src_trab/dspace/modules/oai/target/oai-5.5]
+[INFO] Copying webapp resources [/home/EstudoGeral/dspace5-src_trab/dspace/modules/oai/src/main/webapp]
+[INFO] Processing overlay [ id org.dspace:dspace-oai]
+[INFO] Webapp assembled in [829 msecs]
+[INFO] Building war: /home/EstudoGeral/dspace5-src_trab/dspace/modules/oai/target/oai-5.5.war
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace OAI-Stats (by KEEP Solutions) 5.5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ dspace-oai-stats ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ dspace-oai-stats ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[INFO] Executed tasks
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace Assembly and Configuration 5.5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ dspace ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ dspace ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-assembly-plugin:2.4.1:single (default) @ dspace ---
+[INFO] Reading assembly descriptor: src/main/assembly/assembly.xml
+[WARNING] Cannot include project artifact: org.dspace:dspace:pom:5.5; it doesn't have an associated file or directory.
+[INFO] Copying files to /home/EstudoGeral/dspace5-src_trab/dspace/target/dspace-installer
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace UMinho STATS 5.5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ dspace-uminho-stats ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ dspace-uminho-stats ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[INFO] Executed tasks
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] DSpace Parent Project .............................. SUCCESS [  2.887 s]
+[INFO] DSpace Services Framework :: API and Implementation  SUCCESS [  6.113 s]
+[INFO] DSpace Kernel :: API and Implementation ............ SUCCESS [ 18.557 s]
+[INFO] DSpace Addon Modules ............................... SUCCESS [  0.072 s]
+[INFO] DSpace Kernel :: Additions and Local Customizations  SUCCESS [  0.774 s]
+[INFO] DSpace OAI-Stats (by KEEP Solutions) :: Web Application Resources SUCCESS [  6.799 s]
+[INFO] DSpace OAI-Stats (by KEEP Solutions) :: API and Implementation SUCCESS [  1.087 s]
+[INFO] DSpace OAI STATS:: Web Application ................. SUCCESS [  7.548 s]
+[INFO] DSpace XML-UI Mirage2 Theme ........................ SUCCESS [  0.254 s]
+[INFO] DSpace XML-UI Mirage2 Theme :: Local Customisations  SUCCESS [ 52.667 s]
+[INFO] DSpace XML-UI (Manakin) :: Local Customizations .... SUCCESS [ 12.135 s]
+[INFO] DSpace UMinho STATS :: API and Implementation ...... SUCCESS [  0.717 s]
+[INFO] DSpace JSP-UI ...................................... SUCCESS [  5.478 s]
+[INFO] DSpace UMinho STATS :: API and Implementation ...... SUCCESS [  1.190 s]
+[INFO] DSpace JSP-UI :: Local Customizations .............. SUCCESS [ 12.326 s]
+[INFO] DSpace RDF ......................................... SUCCESS [  4.321 s]
+[INFO] DSpace RDF :: Local Customizations ................. SUCCESS [  8.025 s]
+[INFO] DSpace REST :: API and Implementation .............. SUCCESS [  6.172 s]
+[INFO] DSpace REST :: Local Customizations ................ SUCCESS [  7.100 s]
+[INFO] DSpace SWORD ....................................... SUCCESS [  1.361 s]
+[INFO] DSpace SWORD :: Local Customizations ............... SUCCESS [  5.238 s]
+[INFO] DSpace SWORD v2 .................................... SUCCESS [  4.048 s]
+[INFO] DSpace SWORD v2 :: Local Customizations ............ SUCCESS [  4.854 s]
+[INFO] Apache Solr Webapp ................................. SUCCESS [ 16.283 s]
+[INFO] DSpace SOLR :: Local Customizations ................ SUCCESS [  4.746 s]
+[INFO] DSpace OAI-PMH ..................................... SUCCESS [  7.598 s]
+[INFO] DSpace OAI-PMH :: Local Customizations ............. SUCCESS [  5.751 s]
+[INFO] DSpace OAI-Stats (by KEEP Solutions) ............... SUCCESS [  0.035 s]
+[INFO] DSpace Assembly and Configuration .................. SUCCESS [ 29.441 s]
+[INFO] DSpace UMinho STATS ................................ SUCCESS [  0.033 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 03:55 min
+[INFO] Finished at: 2016-10-18T13:03:29+01:00
+[INFO] Final Memory: 96M/732M
+[INFO] ------------------------------------------------------------------------

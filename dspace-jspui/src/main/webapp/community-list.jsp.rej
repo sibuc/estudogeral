@@ -1,0 +1,11 @@
+--- dspace-jspui/src/main/webapp/community-list.jsp	(revision 7897)
++++ dspace-jspui/src/main/webapp/community-list.jsp	(working copy)
+@@ -37,6 +37,8 @@
+ <%@ page import="java.io.IOException" %>
+ <%@ page import="java.sql.SQLException" %>
+ <%@ page import="java.util.Map" %>
++<%@ page import="javax.servlet.jsp.PageContext" %>
++<%@ page import="pt.keep.dspace.report.ReportLinkManager" %>
+ 
+ <%@ taglib uri="http://www.dspace.org/dspace-tags.tld" prefix="dspace" %>
+ 

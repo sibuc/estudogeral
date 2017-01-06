@@ -1,0 +1,36 @@
+--- dspace-jspui/src/main/webapp/community-home.jsp	(revision 7897)
++++ dspace-jspui/src/main/webapp/community-home.jsp	(working copy)
+@@ -34,6 +34,8 @@
+ <%@ page import="org.dspace.core.ConfigurationManager" %>
+ <%@ page import="org.dspace.core.Utils" %>
+ <%@ page import="javax.servlet.jsp.jstl.fmt.LocaleSupport" %>
++<%@ page import="pt.keep.dspace.chart.ChartManager" %>
++<%@ page import="pt.keep.dspace.report.ReportLinkManager" %>
+ 
+ 
+ <%
+@@ -88,7 +90,23 @@
+             }
+ %>
+ 		<small><fmt:message key="jsp.community-home.heading1"/></small>
+-        <a class="statisticsLink btn btn-info" href="<%= request.getContextPath() %>/handle/<%= community.getHandle() %>/statistics"><fmt:message key="jsp.community-home.display-statistics"/></a>
++		<!--STATS ADDON  -->
++		<%
++			if(ConfigurationManager.getBooleanProperty("stats.enable"))
++			{
++			%>
++				<a class="statisticsLink btn btn-info" href="<%= request.getContextPath() %>/stats?level=community&type=access&page=down-series&object-id=<%= community.getID() %>">
++				<fmt:message key="jsp.community-home.display-statistics" /></a>
++			<%
++			}
++			else
++			{
++			%>
++				<a class="statisticsLink btn btn-info" href="<%= request.getContextPath() %>/handle/<%= community.getHandle() %>/statistics"><fmt:message key="jsp.community-home.display-statistics"/></a>
++			<%
++			}
++		%>        
++		<!--END STATS ADDON  -->
+ 		</h2>
+ 	</div>
+ <%  if (logo != null) { %>

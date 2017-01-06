@@ -1,0 +1,51 @@
+#!/bin/bash
+
+# Get the DSPACE/bin directory
+BINDIR=$(dirname $0)
+
+echo "> Starting \"$0\" execution..."
+
+echo "Updating OpenAIRE Project list"
+
+# Read parameters from DSpace config
+FILE=$($BINDIR/dspace dsrun org.dspace.core.ConfigurationManager -property openaire.projects.filename)
+ONLINE=$($BINDIR/dspace dsrun org.dspace.core.ConfigurationManager -property openaire.projects.url)
+
+ONLINE=$(echo $ONLINE | sed 's/\"//g')
+
+
+XML_CLOSE_ELEMENTS="</value-pairs>\n</form-value-pairs>"
+
+IFS=$'\n'
+i=1
+
+for url in $(echo "$ONLINE" | sed 's_###_\n_g');
+do
+   if [ $i -eq 1 ]; then
+      if [[ $url == http* ]]; then
+         wget --no-check-certificate "$url" -O "${i}.xml"
+      else
+         cp "$url" "${i}.xml"
+      fi
+
+      xmllint --format "${i}.xml" | head -n -2 > $FILE 
+      rm "${i}.xml"
+
+      i=$(($i+1))
+   else
+      if [[ $url == http* ]]; then
+         wget --no-check-certificate "$url" -O "${i}.xml"
+      else
+         cp "$url" "${i}.xml"
+      fi
+
+      xmllint --format "${i}.xml" | head -n -2 | tail -n +4 >> $FILE
+      rm "${i}.xml"
+
+      i=$(($i+1))
+   fi
+done
+
+echo -e "\n$XML_CLOSE_ELEMENTS" >> $FILE
+
+echo "> Ended \"$0\" execution."

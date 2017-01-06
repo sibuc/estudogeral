@@ -1,0 +1,26 @@
+# Documento arquivado nas colecoes dos servicos academicos
+#
+# {0}  Data de deposito
+# {1}  Nome do Candidato
+# {2}  Titulo do documento a partir do qual foi feito o pedido
+# {3}  Handle do documento
+# {4}  Nome do membro do juri
+# {5}  Email do membro do juri
+# {6}  Utilizador (juri)
+Subject: SIBUC - Teses de Doutoramento - cópia em papel
+
+Em {0} foi realizado o seguinte pedido de cópia em suporte papel, pelo utilizador {6}:
+
+Nome do candidato: {1}
+
+Título da tese: {2}({3})
+
+O pedido foi realizado pelo membro do júri:
+
+{4}
+
+cujo contacto e:
+
+{5}
+
+A equipa do SIBUC

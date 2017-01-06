@@ -1,0 +1,20 @@
+--- dspace/config/emails/request_item_pt.author	2015-11-13 12:32:33.000000000 +0000
++++ dspace/config/emails/request_item_pt.author	1970-01-01 01:00:00.000000000 +0100
+@@ -1,17 +0,0 @@
+-Assunto: Pedido de cópia de documento
+-
+-Caro {7},
+-
+-Um utilizador do {9}, {0} and using the email {1}, solicitou uma cópia do(s) ficheiro(s) associado(s) ao documento: "{4}" ({3}) que foi submetido por si.
+-
+-O pedido vem acompanhado da seguinte mensagem:
+-
+-"{5}"
+-
+-Para responder, acione o botão {6}. Pode optar por recusar ou aceitar este pedido, mas pensamos ser do seu interesse dar uma resposta, em qualquer das circunstâncias.
+-
+-SE NÃO FOR O AUTOR DO DOCUMENTO, e apenas efetuou o seu depósito, agradecemos que redireccione este email para o autor.  Apenas o autor deverá responder ao pedido de envio de cópia.
+-
+-SE FOR O AUTOR DO DOCUMENTO, agradecemos a sua colaboração!
+-
+-Caso tenha algumas questões relacionadas com este pedido, por favor contacte {10}.

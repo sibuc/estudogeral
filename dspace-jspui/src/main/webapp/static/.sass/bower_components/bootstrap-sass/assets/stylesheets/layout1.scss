@@ -1,0 +1,35 @@
+/*
+ *	RCAAP . dSPACE · Layout1
+ */
+
+//colors
+$custom-rcaap-brand-primary:         #820053;
+$custom-rcaap-color-body-bg:         #f4f4f4;
+$custom-rcaap-gray-light:            lighten(#000, 46.7%);
+$custom-rcaap-gray-dark:             lighten(#000, 20%);
+$custom-rcaap-text-color:            $custom-rcaap-gray-dark;
+
+//buttons
+$custom-rcaap-btn-primary-border:    $custom-rcaap-brand-primary;
+
+//navigation
+$custom-rcaap-navbar-height:                    40px;
+$custom-rcaap-navbar-padding-horizontal:        floor((30px / 4)) !default;
+$custom-rcaap-navbar-inverse-bg:                $custom-rcaap-brand-primary;
+$custom-rcaap-navbar-inverse-border:            $custom-rcaap-brand-primary;
+$custom-rcaap-navbar-inverse-link-color:        rgba(#fff, 0.5);
+
+//jumbotron
+$custom-rcaap-jumbotron-color:       inherit;
+$custom-rcaap-jumbotron-bg:          $custom-rcaap-gray-light;
+
+//Badge
+$custom-rcaap-badge-bg:     $custom-rcaap-gray-light;
+
+//Breadcrumb
+$custom-rcaap-breadcrumb-active-color: $custom-rcaap-gray-light;
+
+//Imports
+@import "bootstrap-rcaap";
+@import "bootstrap-rcaap/navbar-layout1";
+

@@ -1,0 +1,10 @@
+--- dspace-jspui/src/main/webapp/requestItem/request-form.jsp	2015-11-04 11:18:43.616982054 +0000
++++ dspace-jspui/src/main/webapp/requestItem/request-form.jsp	2015-11-25 15:23:22.237727219 +0000
+@@ -23,6 +23,7 @@
+ 
+ <%@ page import="org.dspace.app.webui.servlet.RequestItemServlet"%>
+ <%@ page import="javax.servlet.jsp.jstl.fmt.LocaleSupport" %>
++<%@ page import="org.dspace.app.webui.util.UIUtil" %>
+ 
+ <%
+ 	request.setCharacterEncoding("UTF-8");

@@ -1,0 +1,4 @@
+Documento terminado
+
+- Alterar caminho para folha de estilo
+- confirmar caminho para imagens

@@ -1,0 +1,11 @@
+--- dspace/config/emails/request_item_pt.admin	2015-11-13 12:35:11.000000000 +0000
++++ dspace/config/emails/request_item_pt.admin	1970-01-01 01:00:00.000000000 +0100
+@@ -1,8 +0,0 @@
+-ASsunto: Pedido de alteração da modalidade de acesso
+-
+-{3}, com o endereço {4},
+-solicitou que o(s) seguinte(s) documento(s)/Ficheiro(s) fique em acesso aberto:
+-
+-Handle do documento:{1} 
+-ID do ficheiro: {0} 
+-Token:{2}

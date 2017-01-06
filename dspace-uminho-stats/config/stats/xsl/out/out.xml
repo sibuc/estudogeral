@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="panel panel-info">
+<div class="panel-heading">Submitters<a style="padding-left:5px;" class="pull-right" href="statsexp?topn=10&amp;pyear=2014&amp;locale=en&amp;anofim=2014&amp;type=adm&amp;anoinicio=2014&amp;level=general&amp;start=01-10-2014&amp;page=docsreq-rank-subm&amp;mesinicio=01&amp;end=14-10-2014&amp;mesfim=10&amp;pmonth=10&amp;number=0">Export</a>
+</div>
+<div style="padding: 10px;">
+<table class="table table-striped">
+<tr>
+<td align="left">
+<b>Requests</b>
+</td>
+<td align="left">
+<b>Submitter</b>
+</td>
+</tr>
+<tr>
+<td align="left" class="statOddRowOddCol">10</td>
+<td align="left" class="statOddRowEvenCol">Ricardo Saraiva</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="panel panel-info">
+<div class="panel-heading">Submitters - acceptations<a style="padding-left:5px;" class="pull-right" href="statsexp?topn=10&amp;pyear=2014&amp;locale=en&amp;anofim=2014&amp;type=adm&amp;anoinicio=2014&amp;level=general&amp;start=01-10-2014&amp;page=docsreq-rank-subm&amp;mesinicio=01&amp;end=14-10-2014&amp;mesfim=10&amp;pmonth=10&amp;number=1">Export</a>
+</div>
+<div style="padding: 10px;">
+<table class="table table-striped">
+<tr>
+<td align="left">
+<b>Requests</b>
+</td>
+<td align="left">
+<b>Submitter</b>
+</td>
+</tr>
+<tr>
+<td align="left" class="statOddRowOddCol">2</td>
+<td align="left" class="statOddRowEvenCol">Ricardo Saraiva</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="panel panel-info">
+<div class="panel-heading">Submitters - rejections<a style="padding-left:5px;" class="pull-right" href="statsexp?topn=10&amp;pyear=2014&amp;locale=en&amp;anofim=2014&amp;type=adm&amp;anoinicio=2014&amp;level=general&amp;start=01-10-2014&amp;page=docsreq-rank-subm&amp;mesinicio=01&amp;end=14-10-2014&amp;mesfim=10&amp;pmonth=10&amp;number=2">Export</a>
+</div>
+<div style="padding: 10px;">
+<table class="table table-striped">
+<tr/>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="panel panel-info">
+<div class="panel-heading">Submitters - without answer<a style="padding-left:5px;" class="pull-right" href="statsexp?topn=10&amp;pyear=2014&amp;locale=en&amp;anofim=2014&amp;type=adm&amp;anoinicio=2014&amp;level=general&amp;start=01-10-2014&amp;page=docsreq-rank-subm&amp;mesinicio=01&amp;end=14-10-2014&amp;mesfim=10&amp;pmonth=10&amp;number=3">Export</a>
+</div>
+<div style="padding: 10px;">
+<table class="table table-striped">
+<tr>
+<td align="left">
+<b>Requests</b>
+</td>
+<td align="left">
+<b>Submitter</b>
+</td>
+</tr>
+<tr>
+<td align="left" class="statOddRowOddCol">8</td>
+<td align="left" class="statOddRowEvenCol">Ricardo Saraiva</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>

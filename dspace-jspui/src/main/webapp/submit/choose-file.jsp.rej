@@ -1,0 +1,20 @@
+--- dspace-jspui/src/main/webapp/submit/choose-file.jsp	2015-05-22 16:13:35.000000000 +0100
++++ dspace-jspui/src/main/webapp/submit/choose-file.jsp	2016-03-21 14:39:30.000000000 +0000
+@@ -421,7 +421,16 @@
+             testChunks: true,
+             throttleProgressCallbacks:1,
+             method: "multipart",
+-            query:{workspace_item_id:'<%= subInfo.getSubmissionItem().getID()%>'}
++            <%
++            if (subInfo.isInWorkflow())
++            {
++            %>
++                query:{workflow_id:'<%= subInfo.getSubmissionItem().getID()%>'}
++            <%
++            } else {
++            %>
++                query:{workspace_item_id:'<%= subInfo.getSubmissionItem().getID()%>'}
++            <%}%>
+           });
+         // Resumable.js isn't supported, fall back on a different method
+ 

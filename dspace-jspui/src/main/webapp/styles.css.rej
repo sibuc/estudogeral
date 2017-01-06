@@ -1,0 +1,59 @@
+--- dspace-jspui/src/main/webapp/styles.css	(revision 7897)
++++ dspace-jspui/src/main/webapp/styles.css	(working copy)
+@@ -844,4 +844,56 @@
+     vertical-align: middle;
+     text-decoration: none;
+     background: #ffffff; 
+-}+}
++
++table.graphs div {
++  margin-bottom: 0px;
++    margin-left: 0px;
++    margin-right: 0px;
++}
++
++table.graphs div {
++  margin-bottom: 0px;
++    margin-left: 0px;
++    margin-right: 0px;
++}
++
++table.graphs {
++  margin-left: auto;
++  margin-right: auto;
++  padding: 20px;
++  border: dashed 1px #CCC;
++}
++
++td.chart table tr td {
++  padding: 0px;
++}
++
++table.graphs td {
++  padding: 10px;
++}
++
++table.graphs td.label {
++  font-weight: bold;
++  text-align: center;
++}
++
++table.graphs td.value {
++  overflow: hidden;
++}
++
++table.graphs ul li a {
++  font-size: 12px;
++}
++
++div.reportinglist {
++  display: inline;
++}
++
++div.reporting {
++  display: inline;
++}
++
++div.reporting a.image {
++  margin-left: 10px;
++}

@@ -1,0 +1,16 @@
+--- dspace/src/main/config/build.xml	(revision 7897)
++++ dspace/src/main/config/build.xml	(working copy)
+@@ -93,8 +93,11 @@
+     </tstamp>
+ 
+     <!-- Default location of GeoLiteCity.dat.gz to download. This may be overridden, if URL path changes. -->
+-    <property name="geolite" value="http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz" />
+-
++    <!-- UMINHO STATS -->
++    <!-- <property name="geolite" value="http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz" /> -->
++	<property name="geolite" value="http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.mmdb.gz" />	
++	<!-- END UMINHO STATS -->
++	
+     <!-- ============================================================= -->
+     <!-- The DSpace class path for executing installation targets      -->
+     <!-- ============================================================= -->

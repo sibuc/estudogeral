@@ -1,0 +1,63 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] DSpace Parent Project
+[INFO] DSpace Services Framework :: API and Implementation
+[INFO] DSpace Kernel :: API and Implementation
+[INFO] DSpace Addon Modules
+[INFO] DSpace Kernel :: Additions and Local Customizations
+[INFO] DSpace XML-UI Mirage2 Theme
+[INFO] DSpace XML-UI Mirage2 Theme :: Local Customisations
+[INFO] DSpace XML-UI (Manakin) :: Local Customizations
+[INFO] DSpace UMinho STATS :: API and Implementation
+[INFO] DSpace JSP-UI
+[INFO] DSpace UMinho STATS :: API and Implementation
+[INFO] DSpace JSP-UI :: Local Customizations
+[INFO] DSpace RDF
+[INFO] DSpace RDF :: Local Customizations
+[INFO] DSpace REST :: API and Implementation
+[INFO] DSpace REST :: Local Customizations
+[INFO] DSpace SWORD
+[INFO] DSpace SWORD :: Local Customizations
+[INFO] DSpace SWORD v2
+[INFO] DSpace SWORD v2 :: Local Customizations
+[INFO] Apache Solr Webapp
+[INFO] DSpace SOLR :: Local Customizations
+[INFO] DSpace OAI-PMH
+[INFO] DSpace OAI-PMH :: Local Customizations
+[INFO] DSpace Assembly and Configuration
+[INFO] DSpace UMinho STATS
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace Parent Project 5.5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ dspace-parent ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ dspace-parent ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[native2ascii] Converting 1 file from /usr/local/EstudoGeral/dspace5-src_trab to /usr/local/EstudoGeral/dspace5-src_trab/target
+[INFO] Executed tasks
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace Services Framework :: API and Implementation 5.5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ dspace-services ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (native2ascii-utf8) @ dspace-services ---
+[INFO] Executing tasks
+
+Encode any UTF-8 chars in properties:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ dspace-services ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ dspace-services ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 87 source files to /usr/local/EstudoGeral/dspace5-src_trab/dspace-services/target/classes

@@ -1,0 +1,69 @@
+--- dspace-jspui/src/main/java/org/dspace/app/webui/servlet/RequestItemServlet.java	2015-11-04 11:18:43.721983473 +0000
++++ dspace-jspui/src/main/java/org/dspace/app/webui/servlet/RequestItemServlet.java	2015-11-25 15:22:27.900988419 +0000
+@@ -31,6 +31,7 @@
+ import javax.servlet.ServletException;
+ import javax.servlet.http.HttpServletRequest;
+ import javax.servlet.http.HttpServletResponse;
++import javax.servlet.jsp.jstl.fmt.LocaleSupport;
+ import java.io.IOException;
+ import java.sql.SQLException;
+ import java.text.MessageFormat;
+@@ -159,14 +160,16 @@
+ 			}
+ 			else
+ 			{
+-				title = I18nUtil.getMessage("jsp.general.untitled", context);
++				title = I18nUtil.getMessage("jsp.general.untitled", context.getCurrentLocale() );
++                                
++                                
+ 			}
+ 
+ 			// User email from context
+ 			String requesterEmail = request.getParameter("email");
+ 			EPerson currentUser = context.getCurrentUser();
+ 			String userName = null;
+-
++                       
+ 			if (currentUser != null)
+ 			{
+ 				requesterEmail = currentUser.getEmail();
+@@ -177,6 +180,7 @@
+ 			{
+ 				String reqname = request.getParameter("reqname");
+ 				String coment = request.getParameter("coment");
++                                
+ 				if (coment == null || coment.equals(""))
+ 					coment = "";
+ 				boolean allfiles = "true".equals(request.getParameter("allfiles"));
+@@ -192,8 +196,7 @@
+ 					request.setAttribute("coment", coment);
+ 					request.setAttribute("title", title);
+ 					request.setAttribute("allfiles", allfiles?"true":null);
+-
+-					request.setAttribute("requestItem.problem", new Boolean(true));
++                              		request.setAttribute("requestItem.problem", new Boolean(true));
+ 					JSPManager.showJSP(request, response, "/requestItem/request-form.jsp");
+ 					return;
+ 				}
+@@ -203,7 +206,7 @@
+ 					// All data is there, send the email
+ 					Email email = Email.getEmail(I18nUtil.getEmailFilename(
+ 							context.getCurrentLocale(), "request_item.author"));
+-
++                                       
+ 					RequestItemAuthor author = new DSpace()
+ 							.getServiceManager()
+ 							.getServiceByName(
+@@ -213,9 +216,10 @@
+ 
+ 					String authorEmail = author.getEmail();
+ 					String authorName = author.getFullName();
+-
++                                        String subject = author.getSubject();
++                                        subject = subject + ":: " + requesterEmail + ":: " + I18nUtil.getMessage("jsp.request.item.request-information.title") +":: "+ reqname;
+ 					email.addRecipient(authorEmail);
+-
++                                        email.setSubject(subject);
+ 					email.addArgument(reqname);
+ 					email.addArgument(requesterEmail);
+ 					email.addArgument(allfiles ? I18nUtil

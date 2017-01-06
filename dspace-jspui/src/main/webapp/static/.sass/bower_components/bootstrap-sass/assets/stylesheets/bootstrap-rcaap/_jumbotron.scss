@@ -1,0 +1,68 @@
+//
+// Jumbotron
+// --------------------------------------------------
+
+.jumbotron {
+  padding-top:    $jumbotron-padding;
+  padding-bottom: $jumbotron-padding;
+  margin-bottom: $jumbotron-padding;
+  color: $jumbotron-color;
+  background-color: $jumbotron-bg;
+
+  background-image: url(/image/custom/jumbotron.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+
+  h1,
+  .h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $jumbotron-heading-color;
+  }
+
+  p {
+    margin-bottom: ($jumbotron-padding / 2);
+    font-size: $jumbotron-font-size;
+    font-weight: 200;
+  }
+
+  a{
+    color: opacify($jumbotron-color, .9);
+  }
+
+  img {		
+    border: 1px solid $brand-primary;		
+  }
+
+  > hr {
+    border-top-color: darken($jumbotron-bg, 10%);
+  }
+
+  .container &,
+  .container-fluid & {
+    border-radius: $border-radius-large; // Only round corners at higher resolutions if contained in a container
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  @media screen and (min-width: $screen-xs-min) {
+    padding-top:    ($jumbotron-padding * 1.6);
+    padding-bottom: ($jumbotron-padding * 1.6);
+
+    .container &,
+    .container-fluid & {
+      padding-left:  ($jumbotron-padding * 1.5);
+      padding-right: ($jumbotron-padding * 1.5);
+    }
+
+    h1,
+    .h1 {
+      font-size: $jumbotron-heading-font-size;
+    }
+  }
+}

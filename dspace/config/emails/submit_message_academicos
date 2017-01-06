@@ -1,0 +1,18 @@
+# Documento arquivado nas colecoes dos servicos academicos
+#
+# {0}  Data de deposito
+# {1}  Nome do utilizador
+# {2}  Colecao
+# {3}  Tipo de Documento
+# {4}  Titulo de Documento 
+# {5}  Handle
+Subject: SIBUC -# Carregamento de Teses 
+
+Na data {0} foi carregado na colecao {2} o seguinte documento pelo utilizador {1}:
+
+{3} - {4}
+
+Esse documento pode ser visualizado a partir de {5}
+
+A equipa do SIBUC
+

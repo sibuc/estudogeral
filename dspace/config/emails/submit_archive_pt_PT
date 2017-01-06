@@ -1,0 +1,32 @@
+## Item Archived email message
+ #
+ # {0}  Title of submission
+ # {1}  Name of collection
+ # {2}  handle 
+ #
+#Subject: DSpace: Submission Approved and Archived 
+Subject: Estudo Geral: Confirmação de depósito de documento 
+ 
+#You submitted: {0}
+Documento : {0}
+ 
+#To collection: {1}
+Coleção: {1}
+
+O documento acima referido foi depositado no Estudo Geral e foi#lhe atribuído
+o seguinte identificador:
+ 
+#Your submission has been accepted and archived in DSpace,
+#and it has been assigned the following identifier:
+ {2}
+ 
+#Please use this identifier when citing your submission.
+Por favor, use este identificador quando fizer a citação do documento.
+
+Obrigada!
+
+A equipa do SIBUC
+ 
+#Many thanks!
+ 
+#DSpace
